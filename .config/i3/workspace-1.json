@@ -1,0 +1,41 @@
+// vim:ts=4:sw=4:et
+{
+    // floating_con with 1 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 436,
+       "width": 746,
+       "x": 560,
+       "y": 1405
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 3,
+            "floating": "user_on",
+            "geometry": {
+               "height": 458,
+               "width": 38,
+               "x": 0,
+               "y": 0
+            },
+            "name": "Terminal",
+            "percent": 1,
+            "swallows": [
+               {
+               // "class": "^Xfce4\\-terminal$",
+               // "instance": "^xfce4\\-terminal$",
+               // "title": "^Terminal$",
+               // "transient_for": "^$",
+               // "window_role": "^xfce4\\-terminal\\-1477103245\\-129533026$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+

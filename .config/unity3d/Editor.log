@@ -1,0 +1,39 @@
+mono profile = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/Mono/lib/mono/2.0'
+Initialize mono
+Mono path[0] = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/Managed'
+Mono path[1] = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/Mono/lib/mono/2.0'
+Mono path[2] = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/UnityScript'
+Mono path[3] = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/Mono/lib/mono/2.0'
+Mono config path = '/home/glauz/Applications/unity-editor-5.5.0xb5Linux/Editor/Data/Mono/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56098
+
+(Unity:14098): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(Unity:14098): Gtk-WARNING **: Unable to locate theme engine in module_path: "adwaita",
+
+(Unity:14098): GLib-GObject-WARNING **: invalid unclassed pointer in cast to 'GtkWidget'
+
+(Unity:14098): Gtk-CRITICAL **: IA__gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(Unity:14098): GLib-GObject-WARNING **: invalid unclassed pointer in cast to 'GtkWidget'
+
+(Unity:14098): Gtk-CRITICAL **: IA__gtk_widget_get_window: assertion 'GTK_IS_WIDGET (widget)' failed
+Desktop is 3200 x 2160 @ 60 Hz
+No window set for screen manager
+ 
+(Filename: /home/builduser/buildslave/unity/build/PlatformDependent/Linux/ScreenManagerLinux.cpp Line: 919)
+
+Receiving unhandled NULL exception
+#0  0x007ffc793e3f40 in funlockfile
+#1  0x007ffc793e44d8 in XVisualIDFromVisual
+#2  0x007ffc793e44e0 in MakeMasterGLContext(GfxDeviceLevelGL, void*, unsigned long)
+#3  0x007ffc793e45e0 in InitializeUnity(void*)
+#4  0x007ffc793e4720 in g_source_get_time
+#5  0x007ffc793e4740 in g_main_context_dispatch
+#6  0x007ffc793e47d0 in g_main_context_dispatch
+#7  0x007ffc793e4830 in g_main_loop_run
+#8  0x007ffc793e4860 in gtk_main
+#9  0x007ffc793e48e0 in main
+#10 0x007ffc793e4c80 in __libc_start_main
+#11 0x007ffc793e4d40 in _start
+Launching bug reporter

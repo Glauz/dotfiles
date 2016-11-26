@@ -1,0 +1,1279 @@
+01:31:19 PM.917: Processor: 8 logical cores
+01:31:19 PM.917: Processor: AMD FX(tm)-8320 Eight-Core Processor
+01:31:19 PM.918: Physical Memory: 12002MB Total
+01:31:19 PM.918: Kernel Version: Linux 4.8.6-1-ARCH
+01:31:19 PM.918: Distribution: "Arch Linux" Unknown
+01:31:19 PM.919: Portable mode: false
+01:31:19 PM.938: OBS 0.16.4-1 (linux)
+01:31:19 PM.938: ---------------------------------
+01:31:19 PM.938: ---------------------------------
+01:31:19 PM.938: audio settings reset:
+01:31:19 PM.938: 	samples per sec: 44100
+01:31:19 PM.938: 	speakers:        2
+01:31:20 PM.168: OpenGL version: 3.2.0 NVIDIA 375.10
+01:31:20 PM.168: 
+01:31:20 PM.179: ---------------------------------
+01:31:20 PM.179: video settings reset:
+01:31:20 PM.179: 	base resolution:   1920x1080
+01:31:20 PM.179: 	output resolution: 1280x720
+01:31:20 PM.179: 	downscale filter:  Lanczos
+01:31:20 PM.179: 	fps:               30/1
+01:31:20 PM.179: 	format:            NV12
+01:31:20 PM.180: ---------------------------------
+01:31:20 PM.195: No blackmagic support
+01:31:20 PM.202: NVENC supported
+01:31:20 PM.203: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+01:31:20 PM.203: 
+01:31:20 PM.203: Module '/usr//lib/obs-plugins/obs-libfdk.so' not found
+01:31:20 PM.210: ---------------------------------
+01:31:20 PM.210:   Loaded Modules:
+01:31:20 PM.210:     text-freetype2.so
+01:31:20 PM.210:     rtmp-services.so
+01:31:20 PM.210:     obs-x264.so
+01:31:20 PM.210:     obs-transitions.so
+01:31:20 PM.210:     obs-outputs.so
+01:31:20 PM.210:     obs-filters.so
+01:31:20 PM.210:     obs-ffmpeg.so
+01:31:20 PM.210:     linux-v4l2.so
+01:31:20 PM.210:     linux-pulseaudio.so
+01:31:20 PM.210:     linux-jack.so
+01:31:20 PM.210:     linux-decklink.so
+01:31:20 PM.210:     linux-capture.so
+01:31:20 PM.210:     linux-alsa.so
+01:31:20 PM.210:     image-source.so
+01:31:20 PM.210:     frontend-tools.so
+01:31:20 PM.210: ==== Startup complete ===============================================
+01:31:20 PM.211: Service '' not found
+01:31:20 PM.220: All scene data cleared
+01:31:20 PM.220: ------------------------------------------------
+01:31:20 PM.236: pulse-input: Server name: 'pulseaudio 9.0'
+01:31:20 PM.236: pulse-input: An error occurred while getting the source info!
+01:31:20 PM.236: pulse-input: Server name: 'pulseaudio 9.0'
+01:31:20 PM.236: pulse-input: An error occurred while getting the source info!
+01:31:20 PM.237: xshm-input: Geometry 1920x1080 @ 0,1080
+01:31:20 PM.238: v4l2-input: Start capture from /dev/video0
+01:31:20 PM.238: v4l2-input: Unable to open device
+01:31:20 PM.238: v4l2-input: Initialization failed
+01:31:20 PM.241: Switched to scene 'Main Monitor'
+01:31:20 PM.241: ------------------------------------------------
+01:31:20 PM.241: Loaded scenes:
+01:31:20 PM.241: - scene 'Scene':
+01:31:20 PM.241:     - source: 'Mic/Aux' (pulse_input_capture)
+01:31:20 PM.241:     - source: 'c720' (v4l2_input)
+01:31:20 PM.241: - scene 'Main Monitor':
+01:31:20 PM.241:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:31:20 PM.241: ------------------------------------------------
+01:31:36 PM.046: Update check: last known remote version is 0.4.0
+01:46:07 PM.567: User switched to scene 'Scene'
+01:46:17 PM.121: v4l2-input: Device /dev/video0 reconnected
+01:46:17 PM.121: v4l2-input: Start capture from /dev/video0
+01:46:17 PM.140: v4l2-input: Input: 0
+01:46:17 PM.170: v4l2-input: Resolution: 800x600
+01:46:17 PM.170: v4l2-input: Pixelformat: 21UY
+01:46:17 PM.170: v4l2-input: Linesize: 800 Bytes
+01:46:17 PM.197: v4l2-input: Framerate: 30.00 fps
+01:46:40 PM.640: User added filter 'Color Key' (color_key_filter) to source 'c720'
+01:47:15 PM.615: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+01:47:15 PM.616: v4l2-input: Found input 'Camera 1' (Index 0)
+01:47:15 PM.616: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:47:15 PM.616: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:47:15 PM.616: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:47:15 PM.616: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:47:15 PM.616: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:47:15 PM.616: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:47:15 PM.617: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:47:15 PM.617: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:47:15 PM.617: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:47:15 PM.617: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:47:15 PM.617: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:47:15 PM.617: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:47:18 PM.611: v4l2-input: Stopped capture after 849 frames
+01:47:18 PM.616: v4l2-input: Start capture from /dev/video0
+01:47:18 PM.616: v4l2-input: Input: 0
+01:47:18 PM.640: v4l2-input: Resolution: 1280x720
+01:47:18 PM.640: v4l2-input: Pixelformat: 21UY
+01:47:18 PM.640: v4l2-input: Linesize: 1280 Bytes
+01:47:18 PM.663: v4l2-input: Framerate: 30.00 fps
+01:47:22 PM.142: v4l2-input: Stopped capture after 36 frames
+01:47:22 PM.146: v4l2-input: Start capture from /dev/video0
+01:47:22 PM.147: v4l2-input: Input: 0
+01:47:22 PM.196: v4l2-input: Resolution: 1280x720
+01:47:22 PM.197: v4l2-input: Pixelformat: VYUY
+01:47:22 PM.197: v4l2-input: Linesize: 2560 Bytes
+01:47:22 PM.197: v4l2-input: Framerate: 10.00 fps
+01:47:26 PM.672: v4l2-input: Stopped capture after 32 frames
+01:47:26 PM.676: v4l2-input: Start capture from /dev/video0
+01:47:26 PM.677: v4l2-input: Input: 0
+01:47:26 PM.705: v4l2-input: Resolution: 1280x720
+01:47:26 PM.705: v4l2-input: Pixelformat: 21VY
+01:47:26 PM.705: v4l2-input: Linesize: 1280 Bytes
+01:47:26 PM.705: v4l2-input: Framerate: 30.00 fps
+01:47:31 PM.392: v4l2-input: Stopped capture after 53 frames
+01:47:31 PM.396: v4l2-input: Start capture from /dev/video0
+01:47:31 PM.397: v4l2-input: Input: 0
+01:47:31 PM.420: v4l2-input: Resolution: 1280x720
+01:47:31 PM.420: v4l2-input: Pixelformat: 21UY
+01:47:31 PM.420: v4l2-input: Linesize: 1280 Bytes
+01:47:31 PM.420: v4l2-input: Framerate: 30.00 fps
+01:47:37 PM.824: v4l2-input: Stopped capture after 78 frames
+01:47:37 PM.828: v4l2-input: Start capture from /dev/video0
+01:47:37 PM.829: v4l2-input: Input: 0
+01:47:37 PM.853: v4l2-input: Resolution: 1280x720
+01:47:37 PM.853: v4l2-input: Pixelformat: 21UY
+01:47:37 PM.853: v4l2-input: Linesize: 1280 Bytes
+01:47:37 PM.876: v4l2-input: Framerate: 30.00 fps
+01:50:56 PM.275: User removed filter 'Color Key' (color_key_filter) from source 'c720'
+01:51:06 PM.893: User added filter 'Color Key' (color_key_filter) to source 'c720'
+01:53:30 PM.365: User added filter 'Color Correction' (color_filter) to source 'c720'
+01:54:59 PM.508: User removed filter 'Color Key' (color_key_filter) from source 'c720'
+01:55:39 PM.410: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+01:55:39 PM.410: v4l2-input: Found input 'Camera 1' (Index 0)
+01:55:39 PM.411: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:55:39 PM.411: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:55:39 PM.411: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:55:39 PM.411: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:55:39 PM.411: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:55:39 PM.411: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:55:39 PM.413: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:55:39 PM.413: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:55:39 PM.413: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:55:39 PM.413: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:55:39 PM.413: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:55:39 PM.413: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:55:49 PM.488: v4l2-input: Stopped capture after 7119 frames
+01:55:49 PM.493: v4l2-input: Start capture from /dev/video0
+01:55:49 PM.493: v4l2-input: Input: 0
+01:55:49 PM.517: v4l2-input: Resolution: 1280x720
+01:55:49 PM.517: v4l2-input: Pixelformat: 21UY
+01:55:49 PM.517: v4l2-input: Linesize: 1280 Bytes
+01:55:49 PM.566: v4l2-input: Framerate: 10.00 fps
+01:55:56 PM.257: v4l2-input: Stopped capture after 52 frames
+01:55:56 PM.262: v4l2-input: Start capture from /dev/video0
+01:55:56 PM.263: v4l2-input: Input: 0
+01:55:56 PM.286: v4l2-input: Resolution: 1280x720
+01:55:56 PM.286: v4l2-input: Pixelformat: 21UY
+01:55:56 PM.286: v4l2-input: Linesize: 1280 Bytes
+01:55:56 PM.310: v4l2-input: Framerate: 30.00 fps
+01:56:00 PM.152: v4l2-input: Stopped capture after 41 frames
+01:56:00 PM.156: v4l2-input: Start capture from /dev/video0
+01:56:00 PM.157: v4l2-input: Input: 0
+01:56:00 PM.180: v4l2-input: Resolution: 800x600
+01:56:00 PM.180: v4l2-input: Pixelformat: 21UY
+01:56:00 PM.180: v4l2-input: Linesize: 800 Bytes
+01:56:00 PM.203: v4l2-input: Framerate: 30.00 fps
+01:56:07 PM.846: v4l2-input: Stopped capture after 96 frames
+01:56:07 PM.851: v4l2-input: Start capture from /dev/video0
+01:56:07 PM.851: v4l2-input: Input: 0
+01:56:07 PM.876: v4l2-input: Resolution: 160x120
+01:56:07 PM.876: v4l2-input: Pixelformat: 21UY
+01:56:07 PM.876: v4l2-input: Linesize: 160 Bytes
+01:56:07 PM.899: v4l2-input: Framerate: 30.00 fps
+01:56:14 PM.062: v4l2-input: Stopped capture after 75 frames
+01:56:14 PM.066: v4l2-input: Start capture from /dev/video0
+01:56:14 PM.067: v4l2-input: Input: 0
+01:56:14 PM.115: v4l2-input: Resolution: 160x120
+01:56:14 PM.115: v4l2-input: Pixelformat: VYUY
+01:56:14 PM.115: v4l2-input: Linesize: 320 Bytes
+01:56:14 PM.139: v4l2-input: Framerate: 30.00 fps
+01:56:19 PM.814: v4l2-input: Stopped capture after 68 frames
+01:56:19 PM.817: v4l2-input: Start capture from /dev/video0
+01:56:19 PM.818: v4l2-input: Input: 0
+01:56:19 PM.849: v4l2-input: Resolution: 160x120
+01:56:19 PM.849: v4l2-input: Pixelformat: 21VY
+01:56:19 PM.849: v4l2-input: Linesize: 160 Bytes
+01:56:19 PM.872: v4l2-input: Framerate: 30.00 fps
+01:56:24 PM.591: v4l2-input: Stopped capture after 54 frames
+01:56:24 PM.595: v4l2-input: Start capture from /dev/video0
+01:56:24 PM.596: v4l2-input: Input: 0
+01:56:24 PM.620: v4l2-input: Resolution: 160x120
+01:56:24 PM.620: v4l2-input: Pixelformat: 21UY
+01:56:24 PM.620: v4l2-input: Linesize: 160 Bytes
+01:56:24 PM.644: v4l2-input: Framerate: 30.00 fps
+01:56:29 PM.846: v4l2-input: Stopped capture after 61 frames
+01:56:29 PM.850: v4l2-input: Start capture from /dev/video0
+01:56:29 PM.851: v4l2-input: Input: 0
+01:56:29 PM.875: v4l2-input: Resolution: 160x120
+01:56:29 PM.875: v4l2-input: Pixelformat: 21VY
+01:56:29 PM.875: v4l2-input: Linesize: 160 Bytes
+01:56:29 PM.899: v4l2-input: Framerate: 30.00 fps
+01:57:45 PM.695: v4l2-input: Stopped capture after 1089 frames
+01:57:45 PM.699: v4l2-input: Start capture from /dev/video0
+01:57:45 PM.699: v4l2-input: Input: 0
+01:57:45 PM.723: v4l2-input: Resolution: 1280x720
+01:57:45 PM.723: v4l2-input: Pixelformat: 21VY
+01:57:45 PM.723: v4l2-input: Linesize: 1280 Bytes
+01:57:45 PM.746: v4l2-input: Framerate: 30.00 fps
+01:57:53 PM.533: v4l2-input: Stopped capture after 97 frames
+01:57:53 PM.537: v4l2-input: Start capture from /dev/video0
+01:57:53 PM.538: v4l2-input: Input: 0
+01:57:53 PM.561: v4l2-input: Resolution: 1280x720
+01:57:53 PM.561: v4l2-input: Pixelformat: 21VY
+01:57:53 PM.561: v4l2-input: Linesize: 1280 Bytes
+01:57:53 PM.585: v4l2-input: Framerate: 30.00 fps
+01:57:59 PM.465: v4l2-input: Stopped capture after 71 frames
+01:57:59 PM.470: v4l2-input: Start capture from /dev/video0
+01:57:59 PM.470: v4l2-input: Input: 0
+01:57:59 PM.494: v4l2-input: Resolution: 1280x720
+01:57:59 PM.494: v4l2-input: Pixelformat: 21VY
+01:57:59 PM.494: v4l2-input: Linesize: 1280 Bytes
+01:57:59 PM.517: v4l2-input: Framerate: 30.00 fps
+01:58:14 PM.082: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+01:58:14 PM.083: v4l2-input: Found input 'Camera 1' (Index 0)
+01:58:14 PM.084: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:58:14 PM.084: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:58:14 PM.084: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:58:14 PM.084: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:58:14 PM.084: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:58:14 PM.084: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:58:14 PM.086: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:58:14 PM.086: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:58:14 PM.086: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:58:14 PM.086: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:58:14 PM.086: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:58:14 PM.086: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:58:15 PM.613: v4l2-input: Stopped capture after 219 frames
+01:58:15 PM.617: v4l2-input: Start capture from /dev/video0
+01:58:15 PM.618: v4l2-input: Input: 0
+01:58:15 PM.641: v4l2-input: Resolution: 1280x720
+01:58:15 PM.641: v4l2-input: Pixelformat: 21VY
+01:58:15 PM.641: v4l2-input: Linesize: 1280 Bytes
+01:58:15 PM.664: v4l2-input: Framerate: 30.00 fps
+01:58:31 PM.359: rtmp-common.c: [initialize_output] Could not find service ''
+01:58:31 PM.360: rtmp-common.c: [initialize_output] Could not find service ''
+01:58:31 PM.381: rtmp-common.c: [initialize_output] Could not find service ''
+01:58:32 PM.396: rtmp-common.c: [initialize_output] Could not find service ''
+01:58:49 PM.800: Created profile '1080p Local Recording' (duplicate, 1080p_Local_Recording)
+01:58:49 PM.800: ------------------------------------------------
+01:58:49 PM.800: ------------------------------------------------
+01:58:49 PM.800: Removed profile 'Untitled' (Untitled)
+01:58:49 PM.800: ------------------------------------------------
+01:59:00 PM.543: Added scene collection '720p Local Recording' (duplicate, 720p_Local_Recording.json)
+01:59:00 PM.543: ------------------------------------------------
+01:59:07 PM.809: Switched to scene '(null)'
+01:59:07 PM.859: v4l2-input: Stopped capture after 742 frames
+01:59:07 PM.953: All scene data cleared
+01:59:07 PM.953: ------------------------------------------------
+01:59:07 PM.964: pulse-input: Server name: 'pulseaudio 9.0'
+01:59:07 PM.964: pulse-input: An error occurred while getting the source info!
+01:59:07 PM.964: pulse-input: Server name: 'pulseaudio 9.0'
+01:59:07 PM.964: pulse-input: An error occurred while getting the source info!
+01:59:07 PM.965: v4l2-input: Start capture from /dev/video0
+01:59:07 PM.965: v4l2-input: Input: 0
+01:59:07 PM.988: v4l2-input: Resolution: 1280x720
+01:59:07 PM.988: v4l2-input: Pixelformat: 21VY
+01:59:07 PM.988: v4l2-input: Linesize: 1280 Bytes
+01:59:08 PM.012: v4l2-input: Framerate: 30.00 fps
+01:59:08 PM.016: xshm-input: Geometry 1920x1080 @ 0,1080
+01:59:08 PM.022: Switched to scene 'Scene'
+01:59:08 PM.022: ------------------------------------------------
+01:59:08 PM.022: Loaded scenes:
+01:59:08 PM.022: - scene 'Scene':
+01:59:08 PM.022:     - source: 'Mic/Aux' (pulse_input_capture)
+01:59:08 PM.022:     - source: 'c720' (v4l2_input)
+01:59:08 PM.022:         - filter: 'Color Correction' (color_filter)
+01:59:08 PM.022: - scene 'Main Monitor':
+01:59:08 PM.022:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:59:08 PM.022: ------------------------------------------------
+01:59:08 PM.025: Switched to scene collection 'Untitled' (Untitled.json)
+01:59:08 PM.025: ------------------------------------------------
+01:59:17 PM.225: ------------------------------------------------
+01:59:17 PM.225: Renamed scene collection to '1080p Local Recording' (1080p_Local_Recording.json)
+01:59:17 PM.225: ------------------------------------------------
+01:59:20 PM.337: Switched to scene '(null)'
+01:59:20 PM.373: v4l2-input: Stopped capture after 163 frames
+01:59:21 PM.027: All scene data cleared
+01:59:21 PM.027: ------------------------------------------------
+01:59:21 PM.033: pulse-input: Server name: 'pulseaudio 9.0'
+01:59:21 PM.033: pulse-input: An error occurred while getting the source info!
+01:59:21 PM.034: pulse-input: Server name: 'pulseaudio 9.0'
+01:59:21 PM.034: pulse-input: An error occurred while getting the source info!
+01:59:21 PM.034: v4l2-input: Start capture from /dev/video0
+01:59:21 PM.035: v4l2-input: Input: 0
+01:59:21 PM.058: v4l2-input: Resolution: 1280x720
+01:59:21 PM.058: v4l2-input: Pixelformat: 21VY
+01:59:21 PM.058: v4l2-input: Linesize: 1280 Bytes
+01:59:21 PM.081: v4l2-input: Framerate: 30.00 fps
+01:59:21 PM.085: xshm-input: Geometry 1920x1080 @ 0,1080
+01:59:21 PM.092: Switched to scene 'Scene'
+01:59:21 PM.092: ------------------------------------------------
+01:59:21 PM.092: Loaded scenes:
+01:59:21 PM.092: - scene 'Scene':
+01:59:21 PM.092:     - source: 'Mic/Aux' (pulse_input_capture)
+01:59:21 PM.092:     - source: 'c720' (v4l2_input)
+01:59:21 PM.092:         - filter: 'Color Correction' (color_filter)
+01:59:21 PM.092: - scene 'Main Monitor':
+01:59:21 PM.092:     - source: 'Screen Capture (XSHM)' (xshm_input)
+01:59:21 PM.092: ------------------------------------------------
+01:59:21 PM.095: Switched to scene collection '720p Local Recording' (720p_Local_Recording.json)
+01:59:21 PM.095: ------------------------------------------------
+01:59:22 PM.702: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:22 PM.702: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:22 PM.735: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:23 PM.738: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:26 PM.593: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:26 PM.920: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:32 PM.765: ---------------------------------
+01:59:32 PM.765: video settings reset:
+01:59:32 PM.765: 	base resolution:   1280x720
+01:59:32 PM.765: 	output resolution: 1280x720
+01:59:32 PM.765: 	downscale filter:  Lanczos
+01:59:32 PM.765: 	fps:               30/1
+01:59:32 PM.765: 	format:            NV12
+01:59:32 PM.766: Settings changed (outputs, video)
+01:59:32 PM.766: ------------------------------------------------
+01:59:38 PM.854: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+01:59:38 PM.855: v4l2-input: Found input 'Camera 1' (Index 0)
+01:59:38 PM.855: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:59:38 PM.856: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:59:38 PM.856: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:59:38 PM.856: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:59:38 PM.856: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:59:38 PM.856: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:59:38 PM.857: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+01:59:38 PM.857: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+01:59:38 PM.857: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+01:59:38 PM.857: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+01:59:38 PM.857: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+01:59:38 PM.857: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+01:59:44 PM.495: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:44 PM.495: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:44 PM.517: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:45 PM.880: rtmp-common.c: [initialize_output] Could not find service ''
+01:59:55 PM.498: ---------------------------------
+01:59:55 PM.498: video settings reset:
+01:59:55 PM.498: 	base resolution:   1280x720
+01:59:55 PM.498: 	output resolution: 1280x720
+01:59:55 PM.498: 	downscale filter:  Bilinear
+01:59:55 PM.498: 	fps:               30/1
+01:59:55 PM.498: 	format:            NV12
+01:59:55 PM.501: Settings changed (video)
+01:59:55 PM.501: ------------------------------------------------
+02:01:19 PM.204: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+02:01:19 PM.205: v4l2-input: Found input 'Camera 1' (Index 0)
+02:01:19 PM.205: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:01:19 PM.205: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:01:19 PM.205: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:01:19 PM.206: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:01:19 PM.206: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:01:19 PM.206: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:01:19 PM.207: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:01:19 PM.207: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:01:19 PM.207: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:01:19 PM.207: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:01:19 PM.207: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:01:19 PM.207: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:01:22 PM.258: v4l2-input: Stopped capture after 1733 frames
+02:01:22 PM.263: v4l2-input: Start capture from /dev/video0
+02:01:22 PM.264: v4l2-input: Input: 0
+02:01:22 PM.287: v4l2-input: Resolution: 1280x720
+02:01:22 PM.287: v4l2-input: Pixelformat: 21UY
+02:01:22 PM.287: v4l2-input: Linesize: 1280 Bytes
+02:01:22 PM.310: v4l2-input: Framerate: 30.00 fps
+02:01:28 PM.393: v4l2-input: Stopped capture after 74 frames
+02:01:28 PM.398: v4l2-input: Start capture from /dev/video0
+02:01:28 PM.399: v4l2-input: Input: 0
+02:01:28 PM.448: v4l2-input: Resolution: 1280x720
+02:01:28 PM.448: v4l2-input: Pixelformat: VYUY
+02:01:28 PM.448: v4l2-input: Linesize: 2560 Bytes
+02:01:28 PM.448: v4l2-input: Framerate: 10.00 fps
+02:01:32 PM.923: v4l2-input: Stopped capture after 32 frames
+02:01:32 PM.928: v4l2-input: Start capture from /dev/video0
+02:01:32 PM.928: v4l2-input: Input: 0
+02:01:32 PM.958: v4l2-input: Resolution: 1280x720
+02:01:32 PM.958: v4l2-input: Pixelformat: 21VY
+02:01:32 PM.958: v4l2-input: Linesize: 1280 Bytes
+02:01:32 PM.958: v4l2-input: Framerate: 30.00 fps
+02:03:09 PM.297: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+02:03:09 PM.298: v4l2-input: Found input 'Camera 1' (Index 0)
+02:03:09 PM.298: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:03:09 PM.298: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:03:09 PM.298: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:03:09 PM.298: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:03:09 PM.298: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:03:09 PM.298: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:03:09 PM.300: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:03:09 PM.300: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:03:09 PM.300: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:03:09 PM.300: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:03:09 PM.300: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:03:09 PM.300: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:03:12 PM.758: v4l2-input: Stopped capture after 1425 frames
+02:03:12 PM.762: v4l2-input: Start capture from /dev/video0
+02:03:12 PM.763: v4l2-input: Input: 0
+02:03:12 PM.786: v4l2-input: Resolution: 800x600
+02:03:12 PM.786: v4l2-input: Pixelformat: 21VY
+02:03:12 PM.786: v4l2-input: Linesize: 800 Bytes
+02:03:12 PM.786: v4l2-input: Framerate: 30.00 fps
+02:03:52 PM.439: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+02:03:52 PM.440: v4l2-input: Found input 'Camera 1' (Index 0)
+02:03:52 PM.440: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:03:52 PM.440: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:03:52 PM.440: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:03:52 PM.440: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:03:52 PM.440: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:03:52 PM.440: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:03:52 PM.442: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+02:03:52 PM.442: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+02:03:52 PM.442: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+02:03:52 PM.442: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+02:03:52 PM.442: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+02:03:52 PM.442: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+02:03:58 PM.963: v4l2-input: Stopped capture after 657 frames
+02:03:58 PM.968: v4l2-input: Start capture from /dev/video0
+02:03:58 PM.969: v4l2-input: Input: 0
+02:03:58 PM.992: v4l2-input: Resolution: 1280x720
+02:03:58 PM.992: v4l2-input: Pixelformat: 21VY
+02:03:58 PM.992: v4l2-input: Linesize: 1280 Bytes
+02:03:58 PM.992: v4l2-input: Framerate: 30.00 fps
+02:04:04 PM.093: v4l2-input: Stopped capture after 59 frames
+02:04:04 PM.097: v4l2-input: Start capture from /dev/video0
+02:04:04 PM.098: v4l2-input: Input: 0
+02:04:04 PM.121: v4l2-input: Resolution: 1280x960
+02:04:04 PM.121: v4l2-input: Pixelformat: 21VY
+02:04:04 PM.121: v4l2-input: Linesize: 1280 Bytes
+02:04:04 PM.121: v4l2-input: Framerate: 30.00 fps
+02:04:12 PM.362: v4l2-input: Stopped capture after 104 frames
+02:04:12 PM.367: v4l2-input: Start capture from /dev/video0
+02:04:12 PM.368: v4l2-input: Input: 0
+02:04:12 PM.391: v4l2-input: Resolution: 1280x720
+02:04:12 PM.391: v4l2-input: Pixelformat: 21VY
+02:04:12 PM.391: v4l2-input: Linesize: 1280 Bytes
+02:04:12 PM.391: v4l2-input: Framerate: 30.00 fps
+02:04:16 PM.732: v4l2-input: Stopped capture after 48 frames
+02:04:16 PM.736: v4l2-input: Start capture from /dev/video0
+02:04:16 PM.737: v4l2-input: Input: 0
+02:04:16 PM.760: v4l2-input: Resolution: 1280x720
+02:04:16 PM.760: v4l2-input: Pixelformat: 21UY
+02:04:16 PM.760: v4l2-input: Linesize: 1280 Bytes
+02:04:16 PM.760: v4l2-input: Framerate: 30.00 fps
+02:04:19 PM.606: v4l2-input: Stopped capture after 27 frames
+02:04:19 PM.610: v4l2-input: Start capture from /dev/video0
+02:04:19 PM.611: v4l2-input: Input: 0
+02:04:19 PM.660: v4l2-input: Resolution: 1280x720
+02:04:19 PM.660: v4l2-input: Pixelformat: VYUY
+02:04:19 PM.660: v4l2-input: Linesize: 2560 Bytes
+02:04:19 PM.660: v4l2-input: Framerate: 10.00 fps
+02:04:32 PM.717: v4l2-input: Stopped capture after 115 frames
+02:04:32 PM.722: v4l2-input: Start capture from /dev/video0
+02:04:32 PM.723: v4l2-input: Input: 0
+02:04:32 PM.746: v4l2-input: Resolution: 1280x720
+02:04:32 PM.746: v4l2-input: Pixelformat: 21VY
+02:04:32 PM.746: v4l2-input: Linesize: 1280 Bytes
+02:04:32 PM.746: v4l2-input: Framerate: 30.00 fps
+02:04:38 PM.536: v4l2-input: Stopped capture after 69 frames
+02:04:38 PM.540: v4l2-input: Start capture from /dev/video0
+02:04:38 PM.541: v4l2-input: Input: 0
+02:04:38 PM.564: v4l2-input: Resolution: 1280x720
+02:04:38 PM.564: v4l2-input: Pixelformat: 21VY
+02:04:38 PM.564: v4l2-input: Linesize: 1280 Bytes
+02:04:38 PM.587: v4l2-input: Framerate: 30.00 fps
+02:04:42 PM.477: v4l2-input: Stopped capture after 42 frames
+02:04:42 PM.482: v4l2-input: Start capture from /dev/video0
+02:04:42 PM.482: v4l2-input: Input: 0
+02:04:42 PM.506: v4l2-input: Resolution: 1280x720
+02:04:42 PM.506: v4l2-input: Pixelformat: 21VY
+02:04:42 PM.506: v4l2-input: Linesize: 1280 Bytes
+02:04:42 PM.555: v4l2-input: Framerate: 10.00 fps
+02:04:45 PM.768: v4l2-input: Stopped capture after 20 frames
+02:04:45 PM.773: v4l2-input: Start capture from /dev/video0
+02:04:45 PM.774: v4l2-input: Input: 0
+02:04:45 PM.797: v4l2-input: Resolution: 1280x720
+02:04:45 PM.797: v4l2-input: Pixelformat: 21VY
+02:04:45 PM.797: v4l2-input: Linesize: 1280 Bytes
+02:04:45 PM.846: v4l2-input: Framerate: 5.00 fps
+02:04:51 PM.451: v4l2-input: Stopped capture after 21 frames
+02:04:51 PM.456: v4l2-input: Start capture from /dev/video0
+02:04:51 PM.457: v4l2-input: Input: 0
+02:04:51 PM.483: v4l2-input: Resolution: 1280x720
+02:04:51 PM.483: v4l2-input: Pixelformat: 21VY
+02:04:51 PM.483: v4l2-input: Linesize: 1280 Bytes
+02:04:51 PM.506: v4l2-input: Framerate: 15.00 fps
+02:04:53 PM.516: v4l2-input: Stopped capture after 15 frames
+02:04:53 PM.521: v4l2-input: Start capture from /dev/video0
+02:04:53 PM.521: v4l2-input: Input: 0
+02:04:53 PM.545: v4l2-input: Resolution: 1280x720
+02:04:53 PM.545: v4l2-input: Pixelformat: 21VY
+02:04:53 PM.545: v4l2-input: Linesize: 1280 Bytes
+02:04:53 PM.568: v4l2-input: Framerate: 25.00 fps
+02:05:00 PM.364: v4l2-input: Stopped capture after 84 frames
+02:05:00 PM.369: v4l2-input: Start capture from /dev/video0
+02:05:00 PM.370: v4l2-input: Input: 0
+02:05:00 PM.393: v4l2-input: Resolution: 1280x720
+02:05:00 PM.393: v4l2-input: Pixelformat: 21VY
+02:05:00 PM.393: v4l2-input: Linesize: 1280 Bytes
+02:05:00 PM.416: v4l2-input: Framerate: 30.00 fps
+02:06:03 PM.725: User switched to scene 'Main Monitor'
+02:07:52 PM.826: Created profile '720p Local Recording' (duplicate, 720p_Local_Recording)
+02:07:52 PM.826: ------------------------------------------------
+02:08:07 PM.290: ---------------------------------
+02:08:07 PM.290: video settings reset:
+02:08:07 PM.290: 	base resolution:   1280x720
+02:08:07 PM.290: 	output resolution: 1280x720
+02:08:07 PM.290: 	downscale filter:  Bilinear
+02:08:07 PM.290: 	fps:               30/1
+02:08:07 PM.290: 	format:            NV12
+02:08:07 PM.291: Service '' not found
+02:08:07 PM.292: Switched to profile '1080p Local Recording' (1080p_Local_Recording)
+02:08:07 PM.292: ------------------------------------------------
+02:08:10 PM.872: rtmp-common.c: [initialize_output] Could not find service ''
+02:08:10 PM.873: rtmp-common.c: [initialize_output] Could not find service ''
+02:08:10 PM.894: rtmp-common.c: [initialize_output] Could not find service ''
+02:08:11 PM.767: rtmp-common.c: [initialize_output] Could not find service ''
+02:08:12 PM.098: rtmp-common.c: [initialize_output] Could not find service ''
+02:08:22 PM.910: ---------------------------------
+02:08:22 PM.910: video settings reset:
+02:08:22 PM.910: 	base resolution:   1920x1080
+02:08:22 PM.910: 	output resolution: 1280x720
+02:08:22 PM.910: 	downscale filter:  Lanczos
+02:08:22 PM.910: 	fps:               30/1
+02:08:22 PM.910: 	format:            NV12
+02:08:22 PM.911: Settings changed (outputs, video)
+02:08:22 PM.911: ------------------------------------------------
+02:08:31 PM.732: Switched to scene '(null)'
+02:08:31 PM.776: v4l2-input: Stopped capture after 2923 frames
+02:08:32 PM.627: All scene data cleared
+02:08:32 PM.627: ------------------------------------------------
+02:08:32 PM.632: pulse-input: Server name: 'pulseaudio 9.0'
+02:08:32 PM.632: pulse-input: An error occurred while getting the source info!
+02:08:32 PM.633: pulse-input: Server name: 'pulseaudio 9.0'
+02:08:32 PM.633: pulse-input: An error occurred while getting the source info!
+02:08:32 PM.634: xshm-input: Geometry 1920x1080 @ 0,1080
+02:08:32 PM.635: v4l2-input: Start capture from /dev/video0
+02:08:32 PM.635: v4l2-input: Input: 0
+02:08:32 PM.659: v4l2-input: Resolution: 1280x720
+02:08:32 PM.659: v4l2-input: Pixelformat: 21VY
+02:08:32 PM.659: v4l2-input: Linesize: 1280 Bytes
+02:08:32 PM.682: v4l2-input: Framerate: 30.00 fps
+02:08:32 PM.691: Switched to scene 'Scene'
+02:08:32 PM.691: ------------------------------------------------
+02:08:32 PM.691: Loaded scenes:
+02:08:32 PM.691: - scene 'Scene':
+02:08:32 PM.691:     - source: 'Mic/Aux' (pulse_input_capture)
+02:08:32 PM.691:     - source: 'c720' (v4l2_input)
+02:08:32 PM.691:         - filter: 'Color Correction' (color_filter)
+02:08:32 PM.691: - scene 'Main Monitor':
+02:08:32 PM.691:     - source: 'Screen Capture (XSHM)' (xshm_input)
+02:08:32 PM.691: ------------------------------------------------
+02:08:32 PM.693: Removed scene collection '720p Local Recording' (/home/glauz/.config/obs-studio/basic/scenes/720p_Local_Recording.json.bak.json), switched to '1080p Local Recording' (1080p_Local_Recording.json)
+02:08:32 PM.693: ------------------------------------------------
+02:08:38 PM.948: ------------------------------------------------
+02:08:38 PM.948: Renamed scene collection to 'Default' (Default.json)
+02:08:38 PM.948: ------------------------------------------------
+02:08:40 PM.871: User switched to scene 'Main Monitor'
+02:09:23 PM.495: Created profile '1080p Local Recording Scaled (720)' (duplicate, 1080p_Local_Recording_Scaled_720)
+02:09:23 PM.495: ------------------------------------------------
+02:09:23 PM.495: ------------------------------------------------
+02:09:23 PM.495: Removed profile '1080p Local Recording' (1080p_Local_Recording)
+02:09:23 PM.495: ------------------------------------------------
+02:09:25 PM.434: ---------------------------------
+02:09:25 PM.434: video settings reset:
+02:09:25 PM.434: 	base resolution:   1280x720
+02:09:25 PM.434: 	output resolution: 1280x720
+02:09:25 PM.434: 	downscale filter:  Bilinear
+02:09:25 PM.434: 	fps:               30/1
+02:09:25 PM.434: 	format:            NV12
+02:09:25 PM.435: Service '' not found
+02:09:25 PM.436: Switched to profile '720p Local Recording' (720p_Local_Recording)
+02:09:25 PM.436: ------------------------------------------------
+02:09:38 PM.381: Created profile 'True 720p Local Recording' (duplicate, True_720p_Local_Recording)
+02:09:38 PM.381: ------------------------------------------------
+02:09:38 PM.382: ------------------------------------------------
+02:09:38 PM.382: Removed profile '720p Local Recording' (720p_Local_Recording)
+02:09:38 PM.382: ------------------------------------------------
+02:09:42 PM.392: ---------------------------------
+02:09:42 PM.392: video settings reset:
+02:09:42 PM.392: 	base resolution:   1920x1080
+02:09:42 PM.392: 	output resolution: 1280x720
+02:09:42 PM.392: 	downscale filter:  Lanczos
+02:09:42 PM.392: 	fps:               30/1
+02:09:42 PM.392: 	format:            NV12
+02:09:42 PM.393: Service '' not found
+02:09:42 PM.394: Switched to profile '1080p Local Recording Scaled (720)' (1080p_Local_Recording_Scaled_720)
+02:09:42 PM.395: ------------------------------------------------
+02:09:44 PM.444: rtmp-common.c: [initialize_output] Could not find service ''
+02:09:44 PM.444: rtmp-common.c: [initialize_output] Could not find service ''
+02:09:44 PM.464: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:02 PM.507: Created profile 'True 1080p Local Recording' (duplicate, True_1080p_Local_Recording)
+02:10:02 PM.507: ------------------------------------------------
+02:10:05 PM.038: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:05 PM.039: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:05 PM.058: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:05 PM.643: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:06 PM.051: rtmp-common.c: [initialize_output] Could not find service ''
+02:10:12 PM.914: ---------------------------------
+02:10:12 PM.914: video settings reset:
+02:10:12 PM.914: 	base resolution:   1920x1080
+02:10:12 PM.914: 	output resolution: 1920x1080
+02:10:12 PM.914: 	downscale filter:  Lanczos
+02:10:12 PM.914: 	fps:               30/1
+02:10:12 PM.914: 	format:            NV12
+02:10:12 PM.915: Settings changed (video)
+02:10:12 PM.915: ------------------------------------------------
+02:11:35 PM.462: v4l2-input: Stopped capture after 2057 frames
+02:11:35 PM.462: v4l2-helpers: unable to stop stream
+02:11:35 PM.463: v4l2-input: Device /dev/video0 disconnected
+04:41:50 PM.137: xshm-input: Geometry 1920x1080 @ 0,1080
+04:41:50 PM.139: User added source 'Screen Capture (XSHM) 1' (xshm_input) to scene 'Main Monitor'
+04:41:53 PM.485: xshm-input: Geometry 1920x1080 @ 0,1080
+04:41:56 PM.939: User Removed source 'Screen Capture (XSHM)' (xshm_input) from scene 'Main Monitor'
+04:42:03 PM.633: User added source 'c720' (v4l2_input) to scene 'Main Monitor'
+04:42:13 PM.988: v4l2-input: Start capture from /dev/video0
+04:42:13 PM.988: v4l2-input: Unable to open device
+04:42:13 PM.988: v4l2-input: Initialization failed
+04:42:19 PM.518: v4l2-input: Device /dev/video0 reconnected
+04:42:19 PM.518: v4l2-input: Start capture from /dev/video0
+04:42:19 PM.528: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:42:19 PM.528: v4l2-input: Input: 0
+04:42:19 PM.557: v4l2-input: Resolution: 1280x720
+04:42:19 PM.557: v4l2-input: Pixelformat: 21VY
+04:42:19 PM.557: v4l2-input: Linesize: 1280 Bytes
+04:42:19 PM.585: v4l2-input: Framerate: 30.00 fps
+04:42:19 PM.586: v4l2-input: Found input 'Camera 1' (Index 0)
+04:42:19 PM.587: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:42:19 PM.587: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:42:19 PM.587: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:42:19 PM.587: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:42:19 PM.588: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:42:19 PM.588: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:42:19 PM.601: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:42:19 PM.601: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:42:19 PM.601: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:42:19 PM.601: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:42:19 PM.601: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:42:19 PM.601: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:42:27 PM.771: v4l2-input: Stopped capture after 32 frames
+04:42:27 PM.776: v4l2-input: Start capture from /dev/video0
+04:42:27 PM.777: v4l2-input: Input: 0
+04:42:27 PM.808: v4l2-input: Resolution: 800x600
+04:42:27 PM.808: v4l2-input: Pixelformat: 21VY
+04:42:27 PM.808: v4l2-input: Linesize: 800 Bytes
+04:42:27 PM.832: v4l2-input: Framerate: 30.00 fps
+04:42:47 PM.774: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:42:47 PM.775: v4l2-input: Found input 'Camera 1' (Index 0)
+04:42:47 PM.775: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:42:47 PM.775: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:42:47 PM.775: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:42:47 PM.775: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:42:47 PM.775: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:42:47 PM.775: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:42:47 PM.776: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:42:47 PM.777: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:42:47 PM.777: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:42:47 PM.777: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:42:47 PM.777: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:42:47 PM.777: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:42:51 PM.799: v4l2-input: Stopped capture after 220 frames
+04:42:51 PM.803: v4l2-input: Start capture from /dev/video0
+04:42:51 PM.804: v4l2-input: Input: 0
+04:42:51 PM.827: v4l2-input: Resolution: 864x480
+04:42:51 PM.827: v4l2-input: Pixelformat: 21VY
+04:42:51 PM.827: v4l2-input: Linesize: 864 Bytes
+04:42:51 PM.851: v4l2-input: Framerate: 30.00 fps
+04:42:53 PM.621: v4l2-input: Stopped capture after 5 frames
+04:42:53 PM.625: v4l2-input: Start capture from /dev/video0
+04:42:53 PM.626: v4l2-input: Input: 0
+04:42:53 PM.649: v4l2-input: Resolution: 800x600
+04:42:53 PM.649: v4l2-input: Pixelformat: 21VY
+04:42:53 PM.650: v4l2-input: Linesize: 800 Bytes
+04:42:53 PM.673: v4l2-input: Framerate: 30.00 fps
+04:42:55 PM.370: v4l2-input: Stopped capture after 8 frames
+04:42:55 PM.374: v4l2-input: Start capture from /dev/video0
+04:42:55 PM.375: v4l2-input: Input: 0
+04:42:55 PM.398: v4l2-input: Resolution: 800x600
+04:42:55 PM.398: v4l2-input: Pixelformat: 21UY
+04:42:55 PM.398: v4l2-input: Linesize: 800 Bytes
+04:42:55 PM.422: v4l2-input: Framerate: 30.00 fps
+04:43:06 PM.993: User switched to scene 'Scene'
+04:43:20 PM.838: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:43:20 PM.839: v4l2-input: Found input 'Camera 1' (Index 0)
+04:43:20 PM.840: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:43:20 PM.840: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:43:20 PM.840: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:43:20 PM.840: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:43:20 PM.840: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:43:20 PM.840: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:43:20 PM.842: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:43:20 PM.842: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:43:20 PM.842: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:43:20 PM.842: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:43:20 PM.842: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:43:20 PM.842: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:43:24 PM.674: v4l2-input: Stopped capture after 345 frames
+04:43:24 PM.678: v4l2-input: Start capture from /dev/video0
+04:43:24 PM.679: v4l2-input: Input: 0
+04:43:24 PM.702: v4l2-input: Resolution: 800x600
+04:43:24 PM.702: v4l2-input: Pixelformat: 21UY
+04:43:24 PM.702: v4l2-input: Linesize: 800 Bytes
+04:43:24 PM.702: v4l2-input: Framerate: 30.00 fps
+04:43:25 PM.829: v4l2-input: Stopped capture after 2 frames
+04:43:25 PM.833: v4l2-input: Start capture from /dev/video0
+04:43:25 PM.834: v4l2-input: Input: 0
+04:43:25 PM.859: v4l2-input: Resolution: 800x600
+04:43:25 PM.859: v4l2-input: Pixelformat: 21UY
+04:43:25 PM.859: v4l2-input: Linesize: 800 Bytes
+04:43:25 PM.882: v4l2-input: Framerate: 30.00 fps
+04:43:29 PM.761: v4l2-input: Stopped capture after 41 frames
+04:43:29 PM.765: v4l2-input: Start capture from /dev/video0
+04:43:29 PM.766: v4l2-input: Input: 0
+04:43:29 PM.790: v4l2-input: Resolution: 1280x720
+04:43:29 PM.790: v4l2-input: Pixelformat: 21UY
+04:43:29 PM.790: v4l2-input: Linesize: 1280 Bytes
+04:43:29 PM.814: v4l2-input: Framerate: 30.00 fps
+04:43:31 PM.654: v4l2-input: Stopped capture after 10 frames
+04:43:31 PM.658: v4l2-input: Start capture from /dev/video0
+04:43:31 PM.659: v4l2-input: Input: 0
+04:43:31 PM.683: v4l2-input: Resolution: 1280x720
+04:43:31 PM.683: v4l2-input: Pixelformat: 21VY
+04:43:31 PM.683: v4l2-input: Linesize: 1280 Bytes
+04:43:31 PM.706: v4l2-input: Framerate: 30.00 fps
+04:43:49 PM.893: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:43:49 PM.893: v4l2-input: Found input 'Camera 1' (Index 0)
+04:43:49 PM.894: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:43:49 PM.894: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:43:49 PM.894: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:43:49 PM.894: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:43:49 PM.894: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:43:49 PM.894: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:43:49 PM.895: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:43:49 PM.895: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:43:49 PM.895: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:43:49 PM.895: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:43:49 PM.895: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:43:49 PM.895: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:43:54 PM.254: v4l2-input: Stopped capture after 239 frames
+04:43:54 PM.258: v4l2-input: Start capture from /dev/video0
+04:43:54 PM.258: v4l2-input: Input: 0
+04:43:54 PM.282: v4l2-input: Resolution: 1280x720
+04:43:54 PM.282: v4l2-input: Pixelformat: 21VY
+04:43:54 PM.282: v4l2-input: Linesize: 1280 Bytes
+04:43:54 PM.305: v4l2-input: Framerate: 30.00 fps
+04:44:08 PM.238: User switched to scene 'Main Monitor'
+04:44:25 PM.138: ---------------------------------
+04:44:25 PM.138: video settings reset:
+04:44:25 PM.138: 	base resolution:   1920x1080
+04:44:25 PM.138: 	output resolution: 1280x720
+04:44:25 PM.138: 	downscale filter:  Lanczos
+04:44:25 PM.138: 	fps:               30/1
+04:44:25 PM.138: 	format:            NV12
+04:44:25 PM.139: Service '' not found
+04:44:25 PM.139: Switched to profile '1080p Local Recording Scaled (720)' (1080p_Local_Recording_Scaled_720)
+04:44:25 PM.140: ------------------------------------------------
+04:45:24 PM.772: User Removed source 'c720' (v4l2_input) from scene 'Main Monitor'
+04:45:29 PM.985: v4l2-input: Start capture from 
+04:45:29 PM.985: v4l2-input: Unable to open device
+04:45:29 PM.985: v4l2-input: Initialization failed
+04:45:29 PM.987: User added source 'Video Capture Device (V4L2)' (v4l2_input) to scene 'Main Monitor'
+04:45:29 PM.993: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:45:29 PM.994: v4l2-input: Found input 'Camera 1' (Index 0)
+04:45:29 PM.995: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:45:29 PM.995: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:45:29 PM.995: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:45:29 PM.995: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:45:29 PM.995: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:45:29 PM.995: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:45:29 PM.995: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+04:45:29 PM.996: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:45:29 PM.999: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:45:29 PM.999: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:45:29 PM.999: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:45:29 PM.999: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:45:29 PM.999: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:45:29 PM.999: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:45:29 PM.999: v4l2-input: Stepwise and Continuous framesizes are currently hardcoded
+04:45:30 PM.000: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:45:30 PM.002: v4l2-input: Stepwise and Continuous framerates are currently hardcoded
+04:45:30 PM.005: v4l2-input: Start capture from /dev/video0
+04:45:30 PM.006: v4l2-input: Unable to set input 0
+04:45:30 PM.006: v4l2-input: Initialization failed
+04:45:35 PM.372: v4l2-input: Start capture from /dev/video0
+04:45:35 PM.373: v4l2-input: Unable to set input 0
+04:45:35 PM.373: v4l2-input: Initialization failed
+04:45:37 PM.372: v4l2-input: Start capture from /dev/video0
+04:45:37 PM.373: v4l2-input: Unable to set input 0
+04:45:37 PM.373: v4l2-input: Initialization failed
+04:45:39 PM.372: v4l2-input: Start capture from /dev/video0
+04:45:39 PM.373: v4l2-input: Unable to set input 0
+04:45:39 PM.373: v4l2-input: Initialization failed
+04:45:44 PM.805: v4l2-input: Start capture from /dev/video0
+04:45:44 PM.806: v4l2-input: Unable to set input 0
+04:45:44 PM.806: v4l2-input: Initialization failed
+04:45:45 PM.972: v4l2-input: Start capture from 
+04:45:45 PM.972: v4l2-input: Unable to open device
+04:45:45 PM.972: v4l2-input: Initialization failed
+04:45:48 PM.673: User Removed source 'Video Capture Device (V4L2)' (v4l2_input) from scene 'Main Monitor'
+04:45:53 PM.246: User added source 'c720' (v4l2_input) to scene 'Main Monitor'
+04:45:58 PM.664: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:45:58 PM.664: v4l2-input: Found input 'Camera 1' (Index 0)
+04:45:58 PM.664: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:45:58 PM.664: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:45:58 PM.664: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:45:58 PM.664: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:45:58 PM.664: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:45:58 PM.664: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:45:58 PM.665: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:45:58 PM.665: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:45:58 PM.665: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:45:58 PM.665: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:45:58 PM.665: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:45:58 PM.665: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:46:03 PM.440: v4l2-input: Stopped capture after 1665 frames
+04:46:03 PM.445: v4l2-input: Start capture from /dev/video0
+04:46:03 PM.446: v4l2-input: Input: 0
+04:46:03 PM.470: v4l2-input: Resolution: 432x240
+04:46:03 PM.470: v4l2-input: Pixelformat: 21VY
+04:46:03 PM.470: v4l2-input: Linesize: 432 Bytes
+04:46:03 PM.494: v4l2-input: Framerate: 30.00 fps
+04:46:17 PM.907: v4l2-input: Stopped capture after 152 frames
+04:46:17 PM.911: v4l2-input: Start capture from /dev/video0
+04:46:17 PM.912: v4l2-input: Input: 0
+04:46:17 PM.936: v4l2-input: Resolution: 352x288
+04:46:17 PM.936: v4l2-input: Pixelformat: 21VY
+04:46:17 PM.936: v4l2-input: Linesize: 352 Bytes
+04:46:17 PM.960: v4l2-input: Framerate: 30.00 fps
+04:46:43 PM.559: User added filter 'Crop/Pad' (crop_filter) to source 'c720'
+04:47:53 PM.876: User switched to scene 'Scene'
+04:48:16 PM.952: User switched to scene 'Main Monitor'
+04:48:18 PM.535: User switched to scene 'Scene'
+04:48:19 PM.145: User switched to scene 'Main Monitor'
+04:48:24 PM.508: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+04:48:24 PM.508: v4l2-input: Found input 'Camera 1' (Index 0)
+04:48:24 PM.509: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:48:24 PM.509: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:48:24 PM.509: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:48:24 PM.509: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:48:24 PM.509: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:48:24 PM.509: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:48:24 PM.511: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+04:48:24 PM.511: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+04:48:24 PM.511: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+04:48:24 PM.511: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+04:48:24 PM.511: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+04:48:24 PM.511: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+04:48:26 PM.287: v4l2-input: Stopped capture after 1590 frames
+04:48:26 PM.291: v4l2-input: Start capture from /dev/video0
+04:48:26 PM.292: v4l2-input: Input: 0
+04:48:26 PM.324: v4l2-input: Resolution: 352x288
+04:48:26 PM.324: v4l2-input: Pixelformat: 21VY
+04:48:26 PM.324: v4l2-input: Linesize: 352 Bytes
+04:48:26 PM.348: v4l2-input: Framerate: 30.00 fps
+04:49:06 PM.770: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:06 PM.771: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:06 PM.791: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:08 PM.004: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:08 PM.523: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:12 PM.724: ---------------------------------
+04:49:12 PM.724: video settings reset:
+04:49:12 PM.724: 	base resolution:   1920x1080
+04:49:12 PM.724: 	output resolution: 1280x720
+04:49:12 PM.724: 	downscale filter:  Bilinear
+04:49:12 PM.724: 	fps:               30/1
+04:49:12 PM.724: 	format:            NV12
+04:49:12 PM.725: Settings changed (video)
+04:49:12 PM.725: ------------------------------------------------
+04:49:16 PM.623: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:16 PM.624: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:16 PM.644: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:17 PM.611: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:18 PM.010: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:18 PM.283: rtmp-common.c: [initialize_output] Could not find service ''
+04:49:25 PM.314: ---------------------------------
+04:49:25 PM.314: video settings reset:
+04:49:25 PM.314: 	base resolution:   1920x1080
+04:49:25 PM.314: 	output resolution: 1280x720
+04:49:25 PM.314: 	downscale filter:  Bicubic
+04:49:25 PM.314: 	fps:               30/1
+04:49:25 PM.314: 	format:            NV12
+04:49:25 PM.316: Settings changed (video)
+04:49:25 PM.316: ------------------------------------------------
+04:51:13 PM.528: Switched to Preview/Program mode
+04:51:13 PM.528: ------------------------------------------------
+04:51:50 PM.144: User switched to scene 'Main Monitor'
+04:51:50 PM.145: Switched to regular Preview mode
+04:51:50 PM.145: ------------------------------------------------
+04:51:56 PM.362: User switched to scene 'Scene'
+04:51:57 PM.106: User switched to scene 'Main Monitor'
+04:52:00 PM.692: User switched to scene 'Scene'
+04:52:01 PM.168: User switched to scene 'Main Monitor'
+04:52:03 PM.925: User switched to scene 'Scene'
+04:52:04 PM.961: User switched to scene 'Main Monitor'
+04:53:18 PM.072: v4l2-input: Stopped capture after 3411 frames
+04:53:18 PM.072: v4l2-helpers: unable to stop stream
+04:53:18 PM.074: v4l2-input: Device /dev/video0 disconnected
+04:53:21 PM.227: v4l2-input: Device /dev/video0 reconnected
+04:53:21 PM.227: v4l2-input: Start capture from /dev/video0
+04:53:21 PM.235: v4l2-input: Input: 0
+04:53:21 PM.267: v4l2-input: Resolution: 352x288
+04:53:21 PM.267: v4l2-input: Pixelformat: 21VY
+04:53:21 PM.267: v4l2-input: Linesize: 352 Bytes
+04:53:21 PM.293: v4l2-input: Framerate: 30.00 fps
+04:54:55 PM.214: User added source 'Mic/Aux' (pulse_input_capture) to scene 'Main Monitor'
+04:55:02 PM.735: pulse-input: Server name: 'pulseaudio 9.0'
+04:55:02 PM.736: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:55:02 PM.736: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+04:55:03 PM.273: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+04:55:05 PM.323: pulse-input: Stopped recording from 'alsa_input.usb-046d_0825_5B06DBD0-02.analog-mono'
+04:55:05 PM.323: pulse-input: Got 259 packets with 113954 frames
+04:55:05 PM.324: pulse-input: Server name: 'pulseaudio 9.0'
+04:55:05 PM.324: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+04:55:05 PM.325: pulse-input: Started recording from 'alsa_input.usb-046d_0825_5B06DBD0-02.analog-mono'
+04:55:06 PM.362: pulse-input: Stopped recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+04:55:06 PM.362: pulse-input: Got 103 packets with 49684 frames
+04:55:06 PM.362: pulse-input: Server name: 'pulseaudio 9.0'
+04:55:06 PM.362: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+04:55:06 PM.363: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+04:56:12 PM.095: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+04:56:36 PM.418: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:36 PM.421: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:36 PM.421: ---------------------------------
+04:56:36 PM.421: [x264 encoder: 'streaming_h264'] preset: veryfast
+04:56:36 PM.440: [x264 encoder: 'streaming_h264'] settings:
+04:56:36 PM.440: 	rate_control: CBR
+04:56:36 PM.440: 	bitrate:      2500
+04:56:36 PM.440: 	buffer size:  2500
+04:56:36 PM.440: 	crf:          0
+04:56:36 PM.440: 	fps_num:      30
+04:56:36 PM.440: 	fps_den:      1
+04:56:36 PM.440: 	width:        1280
+04:56:36 PM.440: 	height:       720
+04:56:36 PM.440: 	keyint:       250
+04:56:36 PM.440: 	vfr:          off
+04:56:36 PM.440: 
+04:56:36 PM.474: ---------------------------------
+04:56:36 PM.513: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2
+04:56:36 PM.542: [rtmp stream: 'adv_stream'] URL is empty
+04:56:36 PM.542: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+04:56:36 PM.544: ==== Streaming Stop ================================================
+04:56:41 PM.849: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:41 PM.849: ---------------------------------
+04:56:41 PM.850: [x264 encoder: 'streaming_h264'] settings:
+04:56:41 PM.850: 	rate_control: CBR
+04:56:41 PM.850: 	bitrate:      2500
+04:56:41 PM.850: 	buffer size:  2500
+04:56:41 PM.850: 	crf:          0
+04:56:41 PM.850: 	fps_num:      30
+04:56:41 PM.850: 	fps_den:      1
+04:56:41 PM.850: 	width:        1280
+04:56:41 PM.850: 	height:       720
+04:56:41 PM.850: 	keyint:       250
+04:56:41 PM.850: 	vfr:          off
+04:56:41 PM.850: 
+04:56:41 PM.851: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:41 PM.851: [rtmp stream: 'adv_stream'] URL is empty
+04:56:41 PM.851: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+04:56:41 PM.858: ==== Streaming Stop ================================================
+04:56:49 PM.521: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:49 PM.522: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:49 PM.546: rtmp-common.c: [initialize_output] Could not find service ''
+04:56:50 PM.965: rtmp-common.c: [initialize_output] Could not find service ''
+04:57:06 PM.403: rtmp-common.c: [initialize_output] Could not find service ''
+04:57:06 PM.403: ---------------------------------
+04:57:06 PM.403: [x264 encoder: 'streaming_h264'] settings:
+04:57:06 PM.403: 	rate_control: CBR
+04:57:06 PM.403: 	bitrate:      2500
+04:57:06 PM.403: 	buffer size:  2500
+04:57:06 PM.403: 	crf:          0
+04:57:06 PM.403: 	fps_num:      30
+04:57:06 PM.403: 	fps_den:      1
+04:57:06 PM.403: 	width:        1280
+04:57:06 PM.403: 	height:       720
+04:57:06 PM.403: 	keyint:       250
+04:57:06 PM.403: 	vfr:          off
+04:57:06 PM.403: 
+04:57:06 PM.405: rtmp-common.c: [initialize_output] Could not find service ''
+04:57:06 PM.432: ==== Recording Start ===============================================
+04:57:06 PM.433: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/glauz/Videos/OBS/2016-11-11 16-57-06.flv'...
+04:57:54 PM.362: adding 23 milliseconds of audio buffering, total audio buffering is now 92 milliseconds
+04:57:58 PM.634: adding 23 milliseconds of audio buffering, total audio buffering is now 116 milliseconds
+05:03:46 PM.855: Last log entry repeated for 146 more lines
+05:03:46 PM.855: v4l2-input: Stopped capture after 5955 frames
+05:03:46 PM.855: v4l2-helpers: unable to stop stream
+05:03:46 PM.856: v4l2-input: Device /dev/video0 disconnected
+05:04:10 PM.821: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video1
+05:04:10 PM.856: v4l2-input: Start capture from /dev/video0
+05:04:10 PM.856: v4l2-input: Unable to open device
+05:04:10 PM.856: v4l2-input: Initialization failed
+05:04:13 PM.588: v4l2-input: Start capture from /dev/video1
+05:04:13 PM.635: v4l2-input: Found input 'Camera 1' (Index 0)
+05:04:13 PM.635: v4l2-input: Input: 0
+05:04:13 PM.659: v4l2-input: Resolution: 352x288
+05:04:13 PM.659: v4l2-input: Pixelformat: 21VY
+05:04:13 PM.660: v4l2-input: Linesize: 352 Bytes
+05:04:13 PM.660: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:04:13 PM.660: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:04:13 PM.660: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:04:13 PM.660: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+05:04:13 PM.660: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:04:13 PM.660: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:04:13 PM.683: v4l2-input: Framerate: 30.00 fps
+05:04:15 PM.696: v4l2-input: Stopped capture after 0 frames
+05:04:15 PM.700: v4l2-input: Start capture from /dev/video1
+05:04:15 PM.701: v4l2-input: Input: 0
+05:04:15 PM.725: v4l2-input: Resolution: 352x288
+05:04:15 PM.725: v4l2-input: Pixelformat: 21VY
+05:04:15 PM.725: v4l2-input: Linesize: 352 Bytes
+05:04:15 PM.749: v4l2-input: Framerate: 30.00 fps
+05:04:16 PM.761: v4l2-input: Stopped capture after 0 frames
+05:04:16 PM.765: v4l2-input: Start capture from /dev/video1
+05:04:16 PM.766: v4l2-input: Input: 0
+05:04:16 PM.816: v4l2-input: Resolution: 352x288
+05:04:16 PM.816: v4l2-input: Pixelformat: 21VY
+05:04:16 PM.816: v4l2-input: Linesize: 352 Bytes
+05:04:16 PM.900: v4l2-input: Framerate: 30.00 fps
+05:04:18 PM.654: v4l2-input: Stopped capture after 19 frames
+05:04:18 PM.658: v4l2-input: Start capture from /dev/video0
+05:04:18 PM.658: v4l2-input: Unable to open device
+05:04:18 PM.658: v4l2-input: Initialization failed
+05:04:20 PM.443: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video1
+05:04:20 PM.454: v4l2-input: Start capture from /dev/video0
+05:04:20 PM.454: v4l2-input: Unable to open device
+05:04:20 PM.454: v4l2-input: Initialization failed
+05:04:21 PM.862: v4l2-input: Found input 'Camera 1' (Index 0)
+05:04:21 PM.863: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:04:21 PM.863: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:04:21 PM.863: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:04:21 PM.863: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+05:04:21 PM.863: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:04:21 PM.863: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:04:21 PM.888: v4l2-input: Start capture from /dev/video1
+05:04:21 PM.889: v4l2-input: Input: 0
+05:04:21 PM.913: v4l2-input: Resolution: 352x288
+05:04:21 PM.913: v4l2-input: Pixelformat: 21VY
+05:04:21 PM.913: v4l2-input: Linesize: 352 Bytes
+05:04:21 PM.937: v4l2-input: Framerate: 30.00 fps
+05:06:10 PM.693: rtmp-common.c: [initialize_output] Could not find service ''
+05:06:10 PM.693: [rtmp stream: 'adv_stream'] URL is empty
+05:06:10 PM.693: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+05:06:10 PM.695: ==== Streaming Stop ================================================
+05:06:20 PM.847: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/glauz/Videos/OBS/2016-11-11 16-57-06.flv' stopped
+05:06:20 PM.848: Output 'adv_file_output': stopping
+05:06:20 PM.848: Output 'adv_file_output': Total encoded frames: 16631
+05:06:20 PM.848: Output 'adv_file_output': Total drawn frames: 16632
+05:06:20 PM.848: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 34 (0.2%)
+05:06:20 PM.849: ==== Recording Stop ================================================
+05:07:56 PM.477: v4l2-input: Device /dev/video1 disconnected
+05:07:56 PM.490: adding 23 milliseconds of audio buffering, total audio buffering is now 139 milliseconds
+05:07:57 PM.268: v4l2-input: Stopped capture after 2777 frames
+05:07:57 PM.268: v4l2-helpers: unable to stop stream
+05:10:18 PM.509: ==== Shutting down ==================================================
+05:10:18 PM.512: Switched to scene '(null)'
+05:10:18 PM.835: pulse-input: Stopped recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+05:10:18 PM.835: pulse-input: Got 98983 packets with 39809440 frames
+05:10:18 PM.836: All scene data cleared
+05:10:18 PM.836: ------------------------------------------------
+05:10:18 PM.920: Freeing OBS context data
+05:10:18 PM.970: == Profiler Results =============================
+05:10:18 PM.970: run_program_init: 473.927 ms
+05:10:18 PM.970:  ┣OBSApp::AppInit: 1.483 ms
+05:10:18 PM.970:  ┃ ┗OBSApp::InitLocale: 1.222 ms
+05:10:18 PM.970:  ┗OBSApp::OBSInit: 451.967 ms
+05:10:18 PM.970:    ┣obs_startup: 1.748 ms
+05:10:18 PM.970:    ┗OBSBasic::OBSInit: 403.248 ms
+05:10:18 PM.970:      ┣OBSBasic::InitBasicConfig: 0.095 ms
+05:10:18 PM.970:      ┣OBSBasic::ResetAudio: 0.102 ms
+05:10:18 PM.970:      ┣OBSBasic::ResetVideo: 241.167 ms
+05:10:18 PM.970:      ┣OBSBasic::InitOBSCallbacks: 0.007 ms
+05:10:18 PM.970:      ┣OBSBasic::InitHotkeys: 0.05 ms
+05:10:18 PM.970:      ┣obs_load_all_modules: 30.61 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(frontend-tools.so): 1.313 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(image-source.so): 0.004 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-capture.so): 0.592 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-decklink.so): 0.167 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(linux-v4l2.so): 0.002 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(obs-ffmpeg.so): 2.452 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(obs-filters.so): 0.022 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+05:10:18 PM.970:      ┃ ┣obs_init_module(rtmp-services.so): 0.11 ms
+05:10:18 PM.970:      ┃ ┗obs_init_module(text-freetype2.so): 0.034 ms
+05:10:18 PM.970:      ┣OBSBasic::ResetOutputs: 0.367 ms
+05:10:18 PM.970:      ┣OBSBasic::CreateHotkeys: 0.229 ms
+05:10:18 PM.970:      ┣OBSBasic::InitService: 0.07 ms
+05:10:18 PM.970:      ┣OBSBasic::InitPrimitives: 8.206 ms
+05:10:18 PM.970:      ┗OBSBasic::Load: 21.543 ms
+05:10:18 PM.970: obs_hotkey_thread(25 ms): min=0.098 ms, median=0.71 ms, max=146.554 ms, 99th percentile=13.583 ms, 99.9645% below 25 ms
+05:10:18 PM.970: audio_thread(Audio): min=0 ms, median=0.042 ms, max=50.389 ms, 99th percentile=4.35 ms
+05:10:18 PM.970:  ┗receive_audio: min=0.003 ms, median=2.133 ms, max=50.258 ms, 99th percentile=20.174 ms, 0.042394 calls per parent call
+05:10:18 PM.970:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=0.117 ms, 99th percentile=0.01 ms
+05:10:18 PM.970:    ┗do_encode: min=0.095 ms, median=2.122 ms, max=50.244 ms, 99th percentile=20.162 ms
+05:10:18 PM.970:      ┗encode(Track1): min=0.09 ms, median=2.105 ms, max=36.44 ms, 99th percentile=20.086 ms
+05:10:18 PM.970: obs_video_thread(33.3333 ms): min=1.184 ms, median=7.507 ms, max=227.159 ms, 99th percentile=12.56 ms, 99.9133% below 33.333 ms
+05:10:18 PM.970:  ┣tick_sources: min=0 ms, median=5.619 ms, max=132.037 ms, 99th percentile=9.227 ms
+05:10:18 PM.970:  ┣render_displays: min=0.089 ms, median=1.08 ms, max=226.04 ms, 99th percentile=2.886 ms
+05:10:18 PM.970:  ┗output_frame: min=0.639 ms, median=1.34 ms, max=45.833 ms, 99th percentile=2.265 ms
+05:10:18 PM.970:    ┣gs_context(video->graphics): min=0.248 ms, median=0.637 ms, max=45.303 ms, 99th percentile=1.229 ms
+05:10:18 PM.970:    ┃ ┣render_video: min=0.164 ms, median=0.436 ms, max=45.004 ms, 99th percentile=0.776 ms
+05:10:18 PM.970:    ┃ ┃ ┣render_main_texture: min=0.041 ms, median=0.16 ms, max=44.836 ms, 99th percentile=0.364 ms
+05:10:18 PM.970:    ┃ ┃ ┣render_output_texture: min=0.005 ms, median=0.093 ms, max=7.223 ms, 99th percentile=0.183 ms
+05:10:18 PM.970:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.093 ms, max=1.131 ms, 99th percentile=0.169 ms
+05:10:18 PM.971:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.048 ms, max=19.779 ms, 99th percentile=0.181 ms
+05:10:18 PM.971:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.986 ms, 99th percentile=0.009 ms
+05:10:18 PM.971:    ┃ ┗gs_flush: min=0.005 ms, median=0.012 ms, max=9.222 ms, 99th percentile=0.023 ms
+05:10:18 PM.971:    ┗output_video_data: min=0.328 ms, median=0.692 ms, max=3.331 ms, 99th percentile=1.204 ms
+05:10:18 PM.971: video_thread(video): min=0 ms, median=0.001 ms, max=0.326 ms, 99th percentile=0.003 ms
+05:10:18 PM.971: OBSBasic::ResetOutputs: min=0.196 ms, median=0.363 ms, max=0.636 ms, 99th percentile=0.636 ms
+05:10:18 PM.971: OBSBasic::ResetVideo: min=23.091 ms, median=45.862 ms, max=56.591 ms, 99th percentile=56.591 ms
+05:10:18 PM.971: obs_video_thread(33.3333 ms): min=1.2 ms, median=2.794 ms, max=46.13 ms, 99th percentile=9.599 ms, 99.8532% below 33.333 ms
+05:10:18 PM.971:  ┣tick_sources: min=0.004 ms, median=0.01 ms, max=0.061 ms, 99th percentile=0.022 ms
+05:10:18 PM.971:  ┣render_displays: min=0.443 ms, median=1.333 ms, max=45.385 ms, 99th percentile=7.178 ms
+05:10:18 PM.971:  ┗output_frame: min=0.604 ms, median=1.416 ms, max=17.012 ms, 99th percentile=2.244 ms
+05:10:18 PM.971:    ┣gs_context(video->graphics): min=0.243 ms, median=0.556 ms, max=16.298 ms, 99th percentile=1.576 ms
+05:10:18 PM.971:    ┃ ┣render_video: min=0.153 ms, median=0.354 ms, max=15.964 ms, 99th percentile=0.733 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_main_texture: min=0.053 ms, median=0.12 ms, max=0.587 ms, 99th percentile=0.359 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_output_texture: min=0.003 ms, median=0.059 ms, max=0.593 ms, 99th percentile=0.234 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.091 ms, max=0.713 ms, 99th percentile=0.305 ms
+05:10:18 PM.971:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.048 ms, max=15.644 ms, 99th percentile=0.226 ms
+05:10:18 PM.971:    ┃ ┣download_frame: min=0 ms, median=0.003 ms, max=0.026 ms, 99th percentile=0.012 ms
+05:10:18 PM.971:    ┃ ┗gs_flush: min=0.005 ms, median=0.011 ms, max=0.041 ms, 99th percentile=0.027 ms
+05:10:18 PM.971:    ┗output_video_data: min=0.334 ms, median=0.85 ms, max=1.819 ms, 99th percentile=1.181 ms
+05:10:18 PM.971: video_thread(video): min=0 ms, median=0.002 ms, max=0.017 ms, 99th percentile=0.005 ms
+05:10:18 PM.971: obs_video_thread(33.3333 ms): min=0.977 ms, median=3.172 ms, max=212.535 ms, 99th percentile=14.761 ms, 99.8167% below 33.333 ms
+05:10:18 PM.971:  ┣tick_sources: min=0.004 ms, median=0.01 ms, max=208.664 ms, 99th percentile=9.274 ms
+05:10:18 PM.971:  ┣render_displays: min=0.084 ms, median=1.177 ms, max=80.277 ms, 99th percentile=9.102 ms
+05:10:18 PM.971:  ┗output_frame: min=0.613 ms, median=1.419 ms, max=31.527 ms, 99th percentile=2.371 ms
+05:10:18 PM.971:    ┣gs_context(video->graphics): min=0.234 ms, median=0.571 ms, max=30.956 ms, 99th percentile=1.443 ms
+05:10:18 PM.971:    ┃ ┣render_video: min=0.148 ms, median=0.381 ms, max=17.145 ms, 99th percentile=0.787 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_main_texture: min=0.05 ms, median=0.133 ms, max=2.289 ms, 99th percentile=0.462 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.062 ms, max=0.869 ms, 99th percentile=0.114 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.094 ms, max=0.937 ms, 99th percentile=0.272 ms
+05:10:18 PM.971:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.048 ms, max=16.551 ms, 99th percentile=0.208 ms
+05:10:18 PM.971:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.205 ms, 99th percentile=0.011 ms
+05:10:18 PM.971:    ┃ ┗gs_flush: min=0.005 ms, median=0.011 ms, max=1.336 ms, 99th percentile=0.024 ms
+05:10:18 PM.971:    ┗output_video_data: min=0.361 ms, median=0.839 ms, max=2.306 ms, 99th percentile=1.322 ms
+05:10:18 PM.971: video_thread(video): min=0 ms, median=0.002 ms, max=0.268 ms, 99th percentile=0.004 ms
+05:10:18 PM.971: obs_video_thread(33.3333 ms): min=7.181 ms, median=9.201 ms, max=39.254 ms, 99th percentile=19.767 ms, 99.7863% below 33.333 ms
+05:10:18 PM.971:  ┣tick_sources: min=4.977 ms, median=6.759 ms, max=33.445 ms, 99th percentile=16.452 ms
+05:10:18 PM.971:  ┣render_displays: min=0.486 ms, median=0.829 ms, max=5.035 ms, 99th percentile=3.709 ms
+05:10:18 PM.971:  ┗output_frame: min=0.77 ms, median=1.501 ms, max=7.505 ms, 99th percentile=2.581 ms
+05:10:18 PM.971:    ┣gs_context(video->graphics): min=0.3 ms, median=0.559 ms, max=6.86 ms, 99th percentile=1.968 ms
+05:10:18 PM.971:    ┃ ┣render_video: min=0.198 ms, median=0.392 ms, max=6.545 ms, 99th percentile=1.224 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_main_texture: min=0.085 ms, median=0.161 ms, max=1.139 ms, 99th percentile=0.364 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.06 ms, max=0.809 ms, 99th percentile=0.134 ms
+05:10:18 PM.971:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.093 ms, max=0.64 ms, 99th percentile=0.311 ms
+05:10:18 PM.971:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.047 ms, max=6.101 ms, 99th percentile=0.243 ms
+05:10:18 PM.971:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.015 ms, 99th percentile=0.014 ms
+05:10:18 PM.971:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=0.162 ms, 99th percentile=0.025 ms
+05:10:18 PM.971:    ┗output_video_data: min=0.421 ms, median=0.973 ms, max=1.466 ms, 99th percentile=1.371 ms
+05:10:18 PM.971: OBSBasic::InitService: min=0.058 ms, median=0.096 ms, max=0.128 ms, 99th percentile=0.128 ms
+05:10:18 PM.971: OBSBasic::CreateHotkeys: min=0.048 ms, median=0.062 ms, max=0.113 ms, 99th percentile=0.113 ms
+05:10:18 PM.971: video_thread(video): min=0 ms, median=0.002 ms, max=0.05 ms, 99th percentile=0.004 ms
+05:10:18 PM.971: obs_video_thread(33.3333 ms): min=1.291 ms, median=9.062 ms, max=43.342 ms, 99th percentile=13.623 ms, 99.7333% below 33.333 ms
+05:10:18 PM.971:  ┣tick_sources: min=0.004 ms, median=6.698 ms, max=40.693 ms, 99th percentile=9.515 ms
+05:10:18 PM.971:  ┣render_displays: min=0.487 ms, median=0.908 ms, max=9.517 ms, 99th percentile=2.712 ms
+05:10:18 PM.971:  ┗output_frame: min=0.669 ms, median=1.449 ms, max=6.619 ms, 99th percentile=1.97 ms
+05:10:18 PM.971:    ┣gs_context(video->graphics): min=0.256 ms, median=0.603 ms, max=6.127 ms, 99th percentile=1.162 ms
+05:10:18 PM.971:    ┃ ┣render_video: min=0.167 ms, median=0.426 ms, max=5.886 ms, 99th percentile=0.842 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_main_texture: min=0.054 ms, median=0.162 ms, max=1.231 ms, 99th percentile=0.366 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.095 ms, max=1.199 ms, 99th percentile=0.269 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.093 ms, max=1.05 ms, 99th percentile=0.255 ms
+05:10:18 PM.972:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.048 ms, max=5.426 ms, 99th percentile=0.205 ms
+05:10:18 PM.972:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.253 ms, 99th percentile=0.013 ms
+05:10:18 PM.972:    ┃ ┗gs_flush: min=0.005 ms, median=0.011 ms, max=0.158 ms, 99th percentile=0.023 ms
+05:10:18 PM.972:    ┗output_video_data: min=0.37 ms, median=0.839 ms, max=1.476 ms, 99th percentile=1.257 ms
+05:10:18 PM.972: video_thread(video): min=0 ms, median=0.001 ms, max=0.032 ms, 99th percentile=0.003 ms
+05:10:18 PM.972: obs_video_thread(33.3333 ms): min=7.346 ms, median=9.193 ms, max=65.615 ms, 99th percentile=21.581 ms, 99.8031% below 33.333 ms
+05:10:18 PM.972:  ┣tick_sources: min=5.285 ms, median=6.657 ms, max=59.623 ms, 99th percentile=11.373 ms
+05:10:18 PM.972:  ┣render_displays: min=0.467 ms, median=0.902 ms, max=22.864 ms, 99th percentile=5.433 ms
+05:10:18 PM.972:  ┗output_frame: min=0.689 ms, median=1.556 ms, max=6.795 ms, 99th percentile=2.414 ms
+05:10:18 PM.972:    ┣gs_context(video->graphics): min=0.302 ms, median=0.574 ms, max=6.045 ms, 99th percentile=1.822 ms
+05:10:18 PM.972:    ┃ ┣render_video: min=0.208 ms, median=0.398 ms, max=5.731 ms, 99th percentile=0.939 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_main_texture: min=0.079 ms, median=0.164 ms, max=1.007 ms, 99th percentile=0.304 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.062 ms, max=0.917 ms, 99th percentile=0.106 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.096 ms, max=0.523 ms, 99th percentile=0.339 ms
+05:10:18 PM.972:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.047 ms, max=5.388 ms, 99th percentile=0.344 ms
+05:10:18 PM.972:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.243 ms, 99th percentile=0.01 ms
+05:10:18 PM.972:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=0.236 ms, 99th percentile=0.033 ms
+05:10:18 PM.972:    ┗output_video_data: min=0.594 ms, median=0.984 ms, max=1.752 ms, 99th percentile=1.418 ms
+05:10:18 PM.972: video_thread(video): min=0 ms, median=0.002 ms, max=0.096 ms, 99th percentile=0.004 ms
+05:10:18 PM.972: obs_video_thread(33.3333 ms): min=7.093 ms, median=9.027 ms, max=52.823 ms, 99th percentile=14.918 ms, 99.8907% below 33.333 ms
+05:10:18 PM.972:  ┣tick_sources: min=4.952 ms, median=6.671 ms, max=46.415 ms, 99th percentile=11.326 ms
+05:10:18 PM.972:  ┣render_displays: min=0.526 ms, median=0.892 ms, max=6.743 ms, 99th percentile=2.474 ms
+05:10:18 PM.972:  ┗output_frame: min=0.857 ms, median=1.411 ms, max=7.386 ms, 99th percentile=2.616 ms
+05:10:18 PM.972:    ┣gs_context(video->graphics): min=0.315 ms, median=0.617 ms, max=6.587 ms, 99th percentile=2.008 ms
+05:10:18 PM.972:    ┃ ┣render_video: min=0.214 ms, median=0.43 ms, max=6.247 ms, 99th percentile=0.754 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_main_texture: min=0.08 ms, median=0.165 ms, max=1.191 ms, 99th percentile=0.27 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_output_texture: min=0.002 ms, median=0.096 ms, max=1.339 ms, 99th percentile=0.146 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.093 ms, max=0.854 ms, 99th percentile=0.151 ms
+05:10:18 PM.972:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.048 ms, max=5.684 ms, 99th percentile=0.212 ms
+05:10:18 PM.972:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.211 ms, 99th percentile=0.015 ms
+05:10:18 PM.972:    ┃ ┗gs_flush: min=0.005 ms, median=0.011 ms, max=0.054 ms, 99th percentile=0.027 ms
+05:10:18 PM.972:    ┗output_video_data: min=0.412 ms, median=0.801 ms, max=1.842 ms, 99th percentile=1.116 ms
+05:10:18 PM.972: video_thread(video): min=0 ms, median=0.001 ms, max=0.049 ms, 99th percentile=0.003 ms
+05:10:18 PM.972: obs_video_thread(33.3333 ms): min=1.627 ms, median=13.095 ms, max=192.389 ms, 99th percentile=19.373 ms, 99.9877% below 33.333 ms
+05:10:18 PM.972:  ┣tick_sources: min=0.004 ms, median=10.382 ms, max=185.015 ms, 99th percentile=16.506 ms
+05:10:18 PM.972:  ┣render_displays: min=0.077 ms, median=0.136 ms, max=53.904 ms, 99th percentile=1.701 ms
+05:10:18 PM.972:  ┗output_frame: min=0.922 ms, median=2.477 ms, max=16.271 ms, 99th percentile=3.006 ms
+05:10:18 PM.972:    ┣gs_context(video->graphics): min=0.235 ms, median=0.667 ms, max=12.462 ms, 99th percentile=1.016 ms
+05:10:18 PM.972:    ┃ ┣render_video: min=0.152 ms, median=0.508 ms, max=10.902 ms, 99th percentile=0.79 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_main_texture: min=0.051 ms, median=0.281 ms, max=1.567 ms, 99th percentile=0.524 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.06 ms, max=1.305 ms, 99th percentile=0.104 ms
+05:10:18 PM.972:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.094 ms, max=6.839 ms, 99th percentile=0.14 ms
+05:10:18 PM.972:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.046 ms, max=10.664 ms, 99th percentile=0.145 ms
+05:10:18 PM.972:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.269 ms, 99th percentile=0.006 ms
+05:10:18 PM.972:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=0.309 ms, 99th percentile=0.037 ms
+05:10:18 PM.972:    ┗output_video_data: min=0.849 ms, median=1.788 ms, max=8.431 ms, 99th percentile=2.135 ms
+05:10:18 PM.972: video_thread(video): min=0 ms, median=0 ms, max=0.15 ms, 99th percentile=0.002 ms
+05:10:18 PM.972: obs_video_thread(33.3333 ms): min=1.235 ms, median=9.809 ms, max=149.579 ms, 99th percentile=15.745 ms, 99.7912% below 33.333 ms
+05:10:18 PM.972:  ┣tick_sources: min=0.004 ms, median=6.236 ms, max=142.909 ms, 99th percentile=8.27 ms
+05:10:18 PM.972:  ┣render_displays: min=0.501 ms, median=2.25 ms, max=39.22 ms, 99th percentile=4.032 ms
+05:10:18 PM.972:  ┗output_frame: min=0.68 ms, median=1.265 ms, max=26.207 ms, 99th percentile=1.777 ms
+05:10:18 PM.973:    ┣gs_context(video->graphics): min=0.249 ms, median=0.581 ms, max=25.638 ms, 99th percentile=1.006 ms
+05:10:18 PM.973:    ┃ ┣render_video: min=0.166 ms, median=0.411 ms, max=25.402 ms, 99th percentile=0.707 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_main_texture: min=0.053 ms, median=0.173 ms, max=2.235 ms, 99th percentile=0.334 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.084 ms, max=0.793 ms, 99th percentile=0.142 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.083 ms, max=0.72 ms, 99th percentile=0.142 ms
+05:10:18 PM.973:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.044 ms, max=25.141 ms, 99th percentile=0.211 ms
+05:10:18 PM.973:    ┃ ┣download_frame: min=0 ms, median=0.003 ms, max=0.091 ms, 99th percentile=0.007 ms
+05:10:18 PM.973:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=4.192 ms, 99th percentile=0.02 ms
+05:10:18 PM.973:    ┗output_video_data: min=0.345 ms, median=0.675 ms, max=1.868 ms, 99th percentile=0.891 ms
+05:10:18 PM.973: video_thread(video): min=0 ms, median=0.001 ms, max=0.191 ms, 99th percentile=0.005 ms
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=8.076 ms, median=9.945 ms, max=70.723 ms, 99th percentile=25.298 ms, 99.734% below 33.333 ms
+05:10:18 PM.973:  ┣tick_sources: min=4.856 ms, median=6.281 ms, max=64.359 ms, 99th percentile=18.787 ms
+05:10:18 PM.973:  ┣render_displays: min=1.501 ms, median=1.935 ms, max=25.629 ms, 99th percentile=7.925 ms
+05:10:18 PM.973:  ┗output_frame: min=0.804 ms, median=1.66 ms, max=12.747 ms, 99th percentile=2.192 ms
+05:10:18 PM.973:    ┣gs_context(video->graphics): min=0.319 ms, median=0.576 ms, max=12.019 ms, 99th percentile=1.513 ms
+05:10:18 PM.973:    ┃ ┣render_video: min=0.225 ms, median=0.408 ms, max=11.808 ms, 99th percentile=1.201 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_main_texture: min=0.102 ms, median=0.176 ms, max=0.683 ms, 99th percentile=0.362 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.08 ms, max=0.667 ms, 99th percentile=0.122 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.083 ms, max=0.653 ms, 99th percentile=0.138 ms
+05:10:18 PM.973:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.043 ms, max=11.378 ms, 99th percentile=0.091 ms
+05:10:18 PM.973:    ┃ ┣download_frame: min=0 ms, median=0.003 ms, max=0.02 ms, 99th percentile=0.008 ms
+05:10:18 PM.973:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=0.04 ms, 99th percentile=0.023 ms
+05:10:18 PM.973:    ┗output_video_data: min=0.498 ms, median=1.064 ms, max=1.275 ms, 99th percentile=1.238 ms
+05:10:18 PM.973: video_thread(video): min=0.001 ms, median=0.002 ms, max=0.007 ms, 99th percentile=0.004 ms
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=1.367 ms, median=9.309 ms, max=987.615 ms, 99th percentile=22.116 ms, 99.6135% below 33.333 ms
+05:10:18 PM.973:  ┣tick_sources: min=0 ms, median=6.455 ms, max=984.654 ms, 99th percentile=15.136 ms
+05:10:18 PM.973:  ┣render_displays: min=0.089 ms, median=1.387 ms, max=114.625 ms, 99th percentile=3.142 ms
+05:10:18 PM.973:  ┗output_frame: min=0.636 ms, median=1.34 ms, max=53.15 ms, 99th percentile=2.393 ms
+05:10:18 PM.973:    ┣gs_context(video->graphics): min=0.279 ms, median=0.618 ms, max=52.634 ms, 99th percentile=1.516 ms
+05:10:18 PM.973:    ┃ ┣render_video: min=0.196 ms, median=0.435 ms, max=30.699 ms, 99th percentile=1.038 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_main_texture: min=0.062 ms, median=0.183 ms, max=3.352 ms, 99th percentile=0.69 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_output_texture: min=0.001 ms, median=0.085 ms, max=2.497 ms, 99th percentile=0.182 ms
+05:10:18 PM.973:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.085 ms, max=1.138 ms, 99th percentile=0.169 ms
+05:10:18 PM.973:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.045 ms, max=30.22 ms, 99th percentile=0.245 ms
+05:10:18 PM.973:    ┃ ┣download_frame: min=0 ms, median=0.004 ms, max=0.236 ms, 99th percentile=0.009 ms
+05:10:18 PM.973:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=24.099 ms, 99th percentile=0.022 ms
+05:10:18 PM.973:    ┗output_video_data: min=0.313 ms, median=0.729 ms, max=3.963 ms, 99th percentile=1.052 ms
+05:10:18 PM.973: video_thread(video): min=0 ms, median=0.002 ms, max=90.429 ms, 99th percentile=3.198 ms
+05:10:18 PM.973:  ┗receive_video: min=0 ms, median=2.497 ms, max=57.952 ms, 99th percentile=3.332 ms, 0.443346 calls per parent call
+05:10:18 PM.973:    ┗do_encode: min=1.428 ms, median=2.496 ms, max=57.951 ms, 99th percentile=3.331 ms
+05:10:18 PM.973:      ┗encode(streaming_h264): min=1.391 ms, median=2.458 ms, max=7.816 ms, 99th percentile=3.24 ms
+05:10:18 PM.973: =================================================
+05:10:18 PM.973: == Profiler Time Between Calls ==================
+05:10:18 PM.973: obs_hotkey_thread(25 ms): min=25.175 ms, median=25.84 ms, max=171.641 ms, 40.3055% within ±2% of 25 ms (0% lower, 59.6945% higher)
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=3.182 ms, median=33.333 ms, max=227.2 ms, 99.8049% within ±2% of 33.333 ms (0.0985435% lower, 0.0965727% higher)
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=20.638 ms, median=33.333 ms, max=46.138 ms, 99.7059% within ±2% of 33.333 ms (0.147059% lower, 0.147059% higher)
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=2.677 ms, median=33.333 ms, max=212.552 ms, 99.6197% within ±2% of 33.333 ms (0.203707% lower, 0.176546% higher)
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=27.482 ms, median=33.334 ms, max=39.261 ms, 99.5717% within ±2% of 33.333 ms (0.214133% lower, 0.214133% higher)
+05:10:18 PM.973: obs_video_thread(33.3333 ms): min=23.305 ms, median=33.333 ms, max=43.355 ms, 99.6798% within ±2% of 33.333 ms (0.160085% lower, 0.160085% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=7.928 ms, median=33.333 ms, max=65.623 ms, 99.4083% within ±2% of 33.333 ms (0.394477% lower, 0.197239% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=13.889 ms, median=33.333 ms, max=52.831 ms, 99.7812% within ±2% of 33.333 ms (0.109409% lower, 0.109409% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=3.694 ms, median=33.333 ms, max=192.401 ms, 99.9647% within ±2% of 33.333 ms (0.0183755% lower, 0.0169343% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=10.348 ms, median=33.333 ms, max=149.586 ms, 99.5707% within ±2% of 33.333 ms (0.220443% lower, 0.208841% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=29.397 ms, median=33.334 ms, max=70.732 ms, 99.4667% within ±2% of 33.333 ms (0.266667% lower, 0.266667% higher)
+05:10:18 PM.974: obs_video_thread(33.3333 ms): min=8.086 ms, median=33.333 ms, max=987.634 ms, 99.1738% within ±2% of 33.333 ms (0.418443% lower, 0.407783% higher)
+05:10:18 PM.974: =================================================
+05:10:19 PM.375: Number of memory leaks: 0

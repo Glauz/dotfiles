@@ -1,0 +1,82 @@
+05:28:35 PM.929: Processor: 8 logical cores
+05:28:35 PM.929: Processor: AMD FX(tm)-8320 Eight-Core Processor
+05:28:35 PM.929: Physical Memory: 12002MB Total
+05:28:35 PM.929: Kernel Version: Linux 4.8.6-1-ARCH
+05:28:35 PM.929: Distribution: "Arch Linux" Unknown
+05:28:35 PM.930: Portable mode: false
+05:28:35 PM.948: OBS 0.16.4-1 (linux)
+05:28:35 PM.948: ---------------------------------
+05:28:35 PM.949: ---------------------------------
+05:28:35 PM.949: audio settings reset:
+05:28:35 PM.949: 	samples per sec: 44100
+05:28:35 PM.949: 	speakers:        2
+05:28:36 PM.125: OpenGL version: 3.2.0 NVIDIA 375.10
+05:28:36 PM.125: 
+05:28:36 PM.135: ---------------------------------
+05:28:36 PM.135: video settings reset:
+05:28:36 PM.135: 	base resolution:   1920x1080
+05:28:36 PM.135: 	output resolution: 1280x720
+05:28:36 PM.135: 	downscale filter:  Bicubic
+05:28:36 PM.135: 	fps:               30/1
+05:28:36 PM.135: 	format:            NV12
+05:28:36 PM.136: ---------------------------------
+05:28:36 PM.151: No blackmagic support
+05:28:36 PM.160: NVENC supported
+05:28:36 PM.161: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+05:28:36 PM.161: 
+05:28:36 PM.161: Module '/usr//lib/obs-plugins/obs-libfdk.so' not found
+05:28:36 PM.167: ---------------------------------
+05:28:36 PM.167:   Loaded Modules:
+05:28:36 PM.167:     text-freetype2.so
+05:28:36 PM.167:     rtmp-services.so
+05:28:36 PM.167:     obs-x264.so
+05:28:36 PM.167:     obs-transitions.so
+05:28:36 PM.167:     obs-outputs.so
+05:28:36 PM.167:     obs-filters.so
+05:28:36 PM.167:     obs-ffmpeg.so
+05:28:36 PM.167:     linux-v4l2.so
+05:28:36 PM.167:     linux-pulseaudio.so
+05:28:36 PM.167:     linux-jack.so
+05:28:36 PM.167:     linux-decklink.so
+05:28:36 PM.167:     linux-capture.so
+05:28:36 PM.167:     linux-alsa.so
+05:28:36 PM.167:     image-source.so
+05:28:36 PM.167:     frontend-tools.so
+05:28:36 PM.167: ==== Startup complete ===============================================
+05:28:36 PM.168: Service '' not found
+05:28:36 PM.172: All scene data cleared
+05:28:36 PM.172: ------------------------------------------------
+05:28:36 PM.186: pulse-input: Server name: 'pulseaudio 9.0'
+05:28:36 PM.186: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:28:36 PM.186: pulse-input: Started recording from 'alsa_output.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo.monitor'
+05:28:36 PM.200: pulse-input: Server name: 'pulseaudio 9.0'
+05:28:36 PM.200: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:28:36 PM.200: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+05:28:36 PM.201: xshm-input: Geometry 1920x1080 @ 0,1080
+05:28:36 PM.202: v4l2-input: Start capture from /dev/video1
+05:28:36 PM.202: v4l2-input: Unable to open device
+05:28:36 PM.202: v4l2-input: Initialization failed
+05:28:36 PM.214: Switched to scene 'Scene'
+05:28:36 PM.214: ------------------------------------------------
+05:28:36 PM.214: Loaded scenes:
+05:28:36 PM.214: - scene 'Scene':
+05:28:36 PM.214:     - source: 'Mic/Aux' (pulse_input_capture)
+05:28:36 PM.214:     - source: 'c720' (v4l2_input)
+05:28:36 PM.214:         - filter: 'Color Correction' (color_filter)
+05:28:36 PM.214:         - filter: 'Crop/Pad' (crop_filter)
+05:28:36 PM.214: - scene 'Main Monitor':
+05:28:36 PM.214:     - source: 'Mic/Aux' (pulse_input_capture)
+05:28:36 PM.214:     - source: 'Screen Capture (XSHM) 1' (xshm_input)
+05:28:36 PM.214:     - source: 'c720' (v4l2_input)
+05:28:36 PM.214:         - filter: 'Color Correction' (color_filter)
+05:28:36 PM.214:         - filter: 'Crop/Pad' (crop_filter)
+05:28:36 PM.214: ------------------------------------------------
+05:28:36 PM.716: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:28:41 PM.185: User switched to scene 'Main Monitor'
+05:28:43 PM.203: v4l2-input: Start capture from /dev/video1
+05:28:43 PM.203: v4l2-input: Unable to open device
+05:28:43 PM.203: v4l2-input: Initialization failed
+05:28:45 PM.736: v4l2-input: Start capture from /dev/video1
+05:28:45 PM.736: v4l2-input: Unable to open device
+05:28:45 PM.736: v4l2-input: Initialization failed
+05:28:52 PM.037: Update check: last known remote version is 0.4.0

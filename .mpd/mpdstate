@@ -1,0 +1,45 @@
+sw_volume: 54
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 29
+time: 64.551000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 5
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Akatsuki no Yona/A place in the sun for Hak.mp3
+1:Akatsuki no Yona/Akatsuki no Yona ED 2 instrumental version.mp3
+2:Akatsuki no Yona/Akatsuki no Yona ED 2.mp3
+3:Akatsuki no Yona/Akatsuki no YONA Melancholy ver.mp3
+4:Akatsuki no Yona/Akatsuki no YONA Short ver.mp3
+5:Akatsuki no Yona/Akatsuki no YONA.mp3
+6:Akatsuki no Yona/Childhood in Kouka Kingdom.mp3
+7:Akatsuki no Yona/Dai Kai Sen.mp3
+8:Akatsuki no Yona/Dear, Blue Dragon.mp3
+9:Akatsuki no Yona/Decision of YONA.mp3
+10:Akatsuki no Yona/Ending OVA.mp3
+11:Akatsuki no Yona/Final Chapter.mp3
+12:Akatsuki no Yona/Gun gi.mp3
+13:Akatsuki no Yona/Jeaha, Elegy of Moonlight.mp3
+14:Akatsuki no Yona/King 'Il'.mp3
+15:Akatsuki no Yona/Lamento.mp3
+16:Akatsuki no Yona/Legends of Four Dragons.mp3
+17:Akatsuki no Yona/Morning Dew ver.mp3
+18:Akatsuki no Yona/Peaceful days in Kouka Kingdom.mp3
+19:Akatsuki no Yona/Power of Four Dragons.mp3
+20:Akatsuki no Yona/Priest 'IkSu'.mp3
+21:Akatsuki no Yona/Promenade ver.mp3
+22:Akatsuki no Yona/Road to Kouka Kingdom.mp3
+23:Akatsuki no Yona/Tales of Blue Dragon.mp3
+24:Akatsuki no Yona/Tribe of Fire.mp3
+25:Akatsuki no Yona/Village Fu Ga.mp3
+26:Akatsuki no Yona/YUMIKURABE.mp3
+27:Akatsuki no Yona/Yun & IkSu, Farewell.mp3
+28:CSS Music.mp3
+29:Akatsuki no Yona/Akatsuki no Yona ED 2 instrumental version.mp3
+playlist_end

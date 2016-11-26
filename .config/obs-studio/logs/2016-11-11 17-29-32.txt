@@ -1,0 +1,75 @@
+05:29:32 PM.120: Processor: 8 logical cores
+05:29:32 PM.121: Processor: AMD FX(tm)-8320 Eight-Core Processor
+05:29:32 PM.121: Physical Memory: 12002MB Total
+05:29:32 PM.121: Kernel Version: Linux 4.8.6-1-ARCH
+05:29:32 PM.121: Distribution: "Arch Linux" Unknown
+05:29:32 PM.122: Portable mode: false
+05:29:32 PM.134: OBS 0.16.4-1 (linux)
+05:29:32 PM.134: ---------------------------------
+05:29:32 PM.134: ---------------------------------
+05:29:32 PM.134: audio settings reset:
+05:29:32 PM.134: 	samples per sec: 44100
+05:29:32 PM.134: 	speakers:        2
+05:29:32 PM.314: OpenGL version: 3.2.0 NVIDIA 375.10
+05:29:32 PM.314: 
+05:29:32 PM.324: ---------------------------------
+05:29:32 PM.324: video settings reset:
+05:29:32 PM.324: 	base resolution:   1920x1080
+05:29:32 PM.324: 	output resolution: 1280x720
+05:29:32 PM.324: 	downscale filter:  Bicubic
+05:29:32 PM.324: 	fps:               30/1
+05:29:32 PM.324: 	format:            NV12
+05:29:32 PM.324: ---------------------------------
+05:29:32 PM.343: No blackmagic support
+05:29:32 PM.351: NVENC supported
+05:29:32 PM.353: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+05:29:32 PM.353: 
+05:29:32 PM.353: Module '/usr//lib/obs-plugins/obs-libfdk.so' not found
+05:29:32 PM.358: ---------------------------------
+05:29:32 PM.358:   Loaded Modules:
+05:29:32 PM.358:     text-freetype2.so
+05:29:32 PM.358:     rtmp-services.so
+05:29:32 PM.358:     obs-x264.so
+05:29:32 PM.358:     obs-transitions.so
+05:29:32 PM.358:     obs-outputs.so
+05:29:32 PM.358:     obs-filters.so
+05:29:32 PM.358:     obs-ffmpeg.so
+05:29:32 PM.358:     linux-v4l2.so
+05:29:32 PM.359:     linux-pulseaudio.so
+05:29:32 PM.359:     linux-jack.so
+05:29:32 PM.359:     linux-decklink.so
+05:29:32 PM.359:     linux-capture.so
+05:29:32 PM.359:     linux-alsa.so
+05:29:32 PM.359:     image-source.so
+05:29:32 PM.359:     frontend-tools.so
+05:29:32 PM.359: ==== Startup complete ===============================================
+05:29:32 PM.359: Service '' not found
+05:29:32 PM.371: All scene data cleared
+05:29:32 PM.371: ------------------------------------------------
+05:29:32 PM.378: pulse-input: Server name: 'pulseaudio 9.0'
+05:29:32 PM.378: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:29:32 PM.379: pulse-input: Started recording from 'alsa_output.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo.monitor'
+05:29:32 PM.396: pulse-input: Server name: 'pulseaudio 9.0'
+05:29:32 PM.397: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:29:32 PM.397: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+05:29:32 PM.398: v4l2-input: Start capture from /dev/video1
+05:29:32 PM.398: v4l2-input: Unable to open device
+05:29:32 PM.398: v4l2-input: Initialization failed
+05:29:32 PM.401: xshm-input: Geometry 1920x1080 @ 0,1080
+05:29:32 PM.405: Switched to scene 'Main Monitor'
+05:29:32 PM.405: ------------------------------------------------
+05:29:32 PM.405: Loaded scenes:
+05:29:32 PM.405: - scene 'Scene':
+05:29:32 PM.405:     - source: 'Mic/Aux' (pulse_input_capture)
+05:29:32 PM.405:     - source: 'c720' (v4l2_input)
+05:29:32 PM.405:         - filter: 'Color Correction' (color_filter)
+05:29:32 PM.405:         - filter: 'Crop/Pad' (crop_filter)
+05:29:32 PM.405: - scene 'Main Monitor':
+05:29:32 PM.406:     - source: 'Mic/Aux' (pulse_input_capture)
+05:29:32 PM.406:     - source: 'Screen Capture (XSHM) 1' (xshm_input)
+05:29:32 PM.406:     - source: 'c720' (v4l2_input)
+05:29:32 PM.406:         - filter: 'Color Correction' (color_filter)
+05:29:32 PM.406:         - filter: 'Crop/Pad' (crop_filter)
+05:29:32 PM.406: ------------------------------------------------
+05:29:32 PM.901: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:29:48 PM.310: Update check: last known remote version is 0.4.0

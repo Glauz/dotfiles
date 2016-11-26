@@ -1,0 +1,191 @@
+05:41:57 PM.569: Processor: 8 logical cores
+05:41:57 PM.570: Processor: AMD FX(tm)-8320 Eight-Core Processor
+05:41:57 PM.570: Physical Memory: 12002MB Total
+05:41:57 PM.570: Kernel Version: Linux 4.8.7-1-ARCH
+05:41:57 PM.570: Distribution: "Arch Linux" Unknown
+05:41:57 PM.571: Portable mode: false
+05:41:57 PM.661: OBS 0.16.4-1 (linux)
+05:41:57 PM.661: ---------------------------------
+05:41:57 PM.662: ---------------------------------
+05:41:57 PM.662: audio settings reset:
+05:41:57 PM.662: 	samples per sec: 44100
+05:41:57 PM.662: 	speakers:        2
+05:41:57 PM.947: OpenGL version: 3.2.0 NVIDIA 375.10
+05:41:57 PM.947: 
+05:41:57 PM.967: ---------------------------------
+05:41:57 PM.967: video settings reset:
+05:41:57 PM.967: 	base resolution:   1920x1080
+05:41:57 PM.967: 	output resolution: 1280x720
+05:41:57 PM.967: 	downscale filter:  Bicubic
+05:41:57 PM.967: 	fps:               30/1
+05:41:57 PM.967: 	format:            NV12
+05:41:57 PM.968: ---------------------------------
+05:41:58 PM.030: No blackmagic support
+05:41:58 PM.107: NVENC supported
+05:41:58 PM.112: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+05:41:58 PM.112: 
+05:41:58 PM.112: Module '/usr//lib/obs-plugins/obs-libfdk.so' not found
+05:41:58 PM.129: ---------------------------------
+05:41:58 PM.129:   Loaded Modules:
+05:41:58 PM.129:     text-freetype2.so
+05:41:58 PM.129:     rtmp-services.so
+05:41:58 PM.129:     obs-x264.so
+05:41:58 PM.129:     obs-transitions.so
+05:41:58 PM.129:     obs-outputs.so
+05:41:58 PM.129:     obs-filters.so
+05:41:58 PM.129:     obs-ffmpeg.so
+05:41:58 PM.129:     linux-v4l2.so
+05:41:58 PM.129:     linux-pulseaudio.so
+05:41:58 PM.129:     linux-jack.so
+05:41:58 PM.129:     linux-decklink.so
+05:41:58 PM.129:     linux-capture.so
+05:41:58 PM.129:     linux-alsa.so
+05:41:58 PM.129:     image-source.so
+05:41:58 PM.129:     frontend-tools.so
+05:41:58 PM.129: ==== Startup complete ===============================================
+05:41:58 PM.132: Service '' not found
+05:41:58 PM.159: All scene data cleared
+05:41:58 PM.193: ------------------------------------------------
+05:41:58 PM.263: pulse-input: Server name: 'pulseaudio 9.0'
+05:41:58 PM.263: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:41:58 PM.264: pulse-input: Started recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+05:41:58 PM.266: pulse-input: Server name: 'pulseaudio 9.0'
+05:41:58 PM.267: pulse-input: An error occurred while getting the source info!
+05:41:58 PM.268: v4l2-input: Start capture from /dev/video0
+05:41:58 PM.277: v4l2-input: Input: 0
+05:41:58 PM.301: v4l2-input: Resolution: 1280x720
+05:41:58 PM.301: v4l2-input: Pixelformat: 21VY
+05:41:58 PM.301: v4l2-input: Linesize: 1280 Bytes
+05:41:58 PM.324: v4l2-input: Framerate: 30.00 fps
+05:41:58 PM.328: xshm-input: Geometry 1920x1080 @ 0,1080
+05:41:58 PM.331: Switched to scene 'Webcam'
+05:41:58 PM.332: ------------------------------------------------
+05:41:58 PM.332: Loaded scenes:
+05:41:58 PM.332: - scene 'Scene':
+05:41:58 PM.332:     - source: 'Mic/Aux' (pulse_input_capture)
+05:41:58 PM.332:     - source: 'c720' (v4l2_input)
+05:41:58 PM.332: - scene 'Main Monitor':
+05:41:58 PM.332:     - source: 'Mic/Aux' (pulse_input_capture)
+05:41:58 PM.332:     - source: 'Screen Capture (XSHM) 1' (xshm_input)
+05:41:58 PM.332:     - source: 'c720' (v4l2_input)
+05:41:58 PM.332: - scene 'Webcam':
+05:41:58 PM.332:     - source: 'c720' (v4l2_input)
+05:41:58 PM.332: ------------------------------------------------
+05:41:58 PM.776: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+05:42:03 PM.119: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:42:12 PM.570: v4l2-input: Stopped capture after 187 frames
+05:42:12 PM.571: v4l2-helpers: unable to stop stream
+05:42:12 PM.572: v4l2-input: Device /dev/video0 disconnected
+05:42:14 PM.132: Update check: last known remote version is 0.4.0
+05:42:17 PM.335: v4l2-input: Device /dev/video0 reconnected
+05:42:17 PM.335: v4l2-input: Start capture from /dev/video0
+05:42:17 PM.343: v4l2-input: Input: 0
+05:42:17 PM.374: v4l2-input: Resolution: 1280x720
+05:42:17 PM.374: v4l2-input: Pixelformat: 21VY
+05:42:17 PM.374: v4l2-input: Linesize: 1280 Bytes
+05:42:17 PM.400: v4l2-input: Framerate: 30.00 fps
+05:42:24 PM.018: User switched to scene 'Scene'
+05:42:24 PM.785: User switched to scene 'Main Monitor'
+05:42:27 PM.687: User switched to scene 'Scene'
+05:42:28 PM.252: User switched to scene 'Main Monitor'
+05:42:30 PM.082: User switched to scene 'Scene'
+05:42:31 PM.196: User switched to scene 'Main Monitor'
+05:42:45 PM.080: User switched to scene 'Webcam'
+05:42:45 PM.898: User switched to scene 'Main Monitor'
+05:42:56 PM.789: User added filter 'Crop/Pad' (crop_filter) to source 'c720'
+05:51:09 PM.299: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:09 PM.301: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:09 PM.302: ---------------------------------
+05:51:09 PM.302: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:51:09 PM.304: [x264 encoder: 'streaming_h264'] settings:
+05:51:09 PM.304: 	rate_control: CBR
+05:51:09 PM.304: 	bitrate:      2500
+05:51:09 PM.304: 	buffer size:  2500
+05:51:09 PM.304: 	crf:          0
+05:51:09 PM.304: 	fps_num:      30
+05:51:09 PM.304: 	fps_den:      1
+05:51:09 PM.304: 	width:        1280
+05:51:09 PM.304: 	height:       720
+05:51:09 PM.304: 	keyint:       250
+05:51:09 PM.304: 	vfr:          off
+05:51:09 PM.304: 
+05:51:09 PM.324: ---------------------------------
+05:51:09 PM.343: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2
+05:51:09 PM.360: ==== Recording Start ===============================================
+05:51:09 PM.360: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/glauz/Videos/OBS/2016-11-14 17-51-09.flv'...
+05:58:42 PM.712: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/glauz/Videos/OBS/2016-11-14 17-51-09.flv' stopped
+05:58:42 PM.712: Output 'adv_file_output': stopping
+05:58:42 PM.712: Output 'adv_file_output': Total encoded frames: 13599
+05:58:42 PM.712: Output 'adv_file_output': Total drawn frames: 13601
+05:58:42 PM.712: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 9 (0.1%)
+05:58:42 PM.712: ==== Recording Stop ================================================
+05:58:50 PM.914: ==== Shutting down ==================================================
+05:58:50 PM.916: Switched to scene '(null)'
+05:58:50 PM.968: v4l2-input: Stopped capture after 13943 frames
+05:58:51 PM.382: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+05:58:51 PM.382: pulse-input: Got 172129 packets with 44768377 frames
+05:58:51 PM.383: All scene data cleared
+05:58:51 PM.383: ------------------------------------------------
+05:58:51 PM.483: Freeing OBS context data
+05:58:51 PM.514: == Profiler Results =============================
+05:58:51 PM.514: run_program_init: 1123.04 ms
+05:58:51 PM.514:  ┣OBSApp::AppInit: 6.694 ms
+05:58:51 PM.514:  ┃ ┗OBSApp::InitLocale: 4.472 ms
+05:58:51 PM.514:  ┗OBSApp::OBSInit: 939.888 ms
+05:58:51 PM.514:    ┣obs_startup: 1.578 ms
+05:58:51 PM.514:    ┗OBSBasic::OBSInit: 750.567 ms
+05:58:51 PM.514:      ┣OBSBasic::InitBasicConfig: 0.075 ms
+05:58:51 PM.514:      ┣OBSBasic::ResetAudio: 0.112 ms
+05:58:51 PM.514:      ┣OBSBasic::ResetVideo: 306.038 ms
+05:58:51 PM.514:      ┣OBSBasic::InitOBSCallbacks: 0.01 ms
+05:58:51 PM.514:      ┣OBSBasic::InitHotkeys: 0.081 ms
+05:58:51 PM.514:      ┣obs_load_all_modules: 161.181 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(frontend-tools.so): 1.656 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(image-source.so): 0.018 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-alsa.so): 0.003 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-capture.so): 0.944 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-decklink.so): 0.361 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-jack.so): 0.004 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.018 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(linux-v4l2.so): 0.006 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(obs-ffmpeg.so): 56.077 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(obs-filters.so): 0.034 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(obs-outputs.so): 0.005 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(obs-transitions.so): 0.023 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+05:58:51 PM.514:      ┃ ┣obs_init_module(rtmp-services.so): 1.027 ms
+05:58:51 PM.514:      ┃ ┗obs_init_module(text-freetype2.so): 0.049 ms
+05:58:51 PM.514:      ┣OBSBasic::ResetOutputs: 1.306 ms
+05:58:51 PM.515:      ┣OBSBasic::CreateHotkeys: 0.765 ms
+05:58:51 PM.515:      ┣OBSBasic::InitService: 0.065 ms
+05:58:51 PM.515:      ┣OBSBasic::InitPrimitives: 0.369 ms
+05:58:51 PM.515:      ┗OBSBasic::Load: 200.008 ms
+05:58:51 PM.515: obs_hotkey_thread(25 ms): min=0.1 ms, median=0.299 ms, max=72.28 ms, 99th percentile=7.868 ms, 99.9158% below 25 ms
+05:58:51 PM.515: audio_thread(Audio): min=0 ms, median=0.095 ms, max=32.121 ms, 99th percentile=0.986 ms
+05:58:51 PM.515:  ┗receive_audio: min=0.005 ms, median=0.31 ms, max=32.043 ms, 99th percentile=0.563 ms, 0.449903 calls per parent call
+05:58:51 PM.515:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=0.362 ms, 99th percentile=0.01 ms
+05:58:51 PM.515:    ┗do_encode: min=0.079 ms, median=0.299 ms, max=32.03 ms, 99th percentile=0.546 ms
+05:58:51 PM.515:      ┗encode(Track1): min=0.076 ms, median=0.281 ms, max=14.582 ms, 99th percentile=0.507 ms
+05:58:51 PM.515: obs_video_thread(33.3333 ms): min=1.049 ms, median=9.623 ms, max=78.843 ms, 99th percentile=24.55 ms, 99.592% below 33.333 ms
+05:58:51 PM.515:  ┣tick_sources: min=0 ms, median=6.112 ms, max=60.867 ms, 99th percentile=16.746 ms
+05:58:51 PM.515:  ┣render_displays: min=0.079 ms, median=2.296 ms, max=58.384 ms, 99th percentile=6.844 ms
+05:58:51 PM.515:  ┗output_frame: min=0.631 ms, median=1.175 ms, max=42.101 ms, 99th percentile=3.322 ms
+05:58:51 PM.515:    ┣gs_context(video->graphics): min=0.253 ms, median=0.58 ms, max=41.656 ms, 99th percentile=1.683 ms
+05:58:51 PM.515:    ┃ ┣render_video: min=0.166 ms, median=0.408 ms, max=41.487 ms, 99th percentile=0.818 ms
+05:58:51 PM.515:    ┃ ┃ ┣render_main_texture: min=0.05 ms, median=0.174 ms, max=8.156 ms, 99th percentile=0.354 ms
+05:58:51 PM.515:    ┃ ┃ ┣render_output_texture: min=0.005 ms, median=0.079 ms, max=2.289 ms, 99th percentile=0.137 ms
+05:58:51 PM.515:    ┃ ┃ ┣render_convert_texture: min=0.001 ms, median=0.08 ms, max=0.813 ms, 99th percentile=0.134 ms
+05:58:51 PM.515:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.044 ms, max=41.186 ms, 99th percentile=0.251 ms
+05:58:51 PM.515:    ┃ ┣download_frame: min=0 ms, median=0.003 ms, max=0.063 ms, 99th percentile=0.007 ms
+05:58:51 PM.515:    ┃ ┗gs_flush: min=0.005 ms, median=0.011 ms, max=5.289 ms, 99th percentile=0.023 ms
+05:58:51 PM.515:    ┗output_video_data: min=0.338 ms, median=0.571 ms, max=16.412 ms, 99th percentile=2.222 ms
+05:58:51 PM.515: video_thread(video): min=0 ms, median=0.002 ms, max=34.315 ms, 99th percentile=3.102 ms
+05:58:51 PM.515:  ┗receive_video: min=0 ms, median=2.067 ms, max=34.312 ms, 99th percentile=3.563 ms, 0.44756 calls per parent call
+05:58:51 PM.515:    ┗do_encode: min=1.314 ms, median=2.066 ms, max=34.311 ms, 99th percentile=3.561 ms
+05:58:51 PM.515:      ┗encode(streaming_h264): min=1.305 ms, median=2.033 ms, max=15.802 ms, 99th percentile=3.299 ms
+05:58:51 PM.515: =================================================
+05:58:51 PM.515: == Profiler Time Between Calls ==================
+05:58:51 PM.515: obs_hotkey_thread(25 ms): min=25.166 ms, median=25.401 ms, max=97.425 ms, 79.3931% within ±2% of 25 ms (0% lower, 20.6069% higher)
+05:58:51 PM.515: obs_video_thread(33.3333 ms): min=1.704 ms, median=33.333 ms, max=78.864 ms, 98.5061% within ±2% of 33.333 ms (0.746932% lower, 0.746932% higher)
+05:58:51 PM.515: =================================================
+05:58:51 PM.595: Number of memory leaks: 0

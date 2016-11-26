@@ -1,0 +1,243 @@
+05:31:51 PM.783: Processor: 8 logical cores
+05:31:51 PM.783: Processor: AMD FX(tm)-8320 Eight-Core Processor
+05:31:51 PM.784: Physical Memory: 12002MB Total
+05:31:51 PM.784: Kernel Version: Linux 4.8.7-1-ARCH
+05:31:51 PM.784: Distribution: "Arch Linux" Unknown
+05:31:51 PM.785: Portable mode: false
+05:31:51 PM.823: OBS 0.16.4-1 (linux)
+05:31:51 PM.823: ---------------------------------
+05:31:51 PM.823: ---------------------------------
+05:31:51 PM.823: audio settings reset:
+05:31:51 PM.823: 	samples per sec: 44100
+05:31:51 PM.823: 	speakers:        2
+05:31:52 PM.053: OpenGL version: 3.2.0 NVIDIA 375.10
+05:31:52 PM.053: 
+05:31:52 PM.114: ---------------------------------
+05:31:52 PM.114: video settings reset:
+05:31:52 PM.114: 	base resolution:   1920x1080
+05:31:52 PM.114: 	output resolution: 1280x720
+05:31:52 PM.114: 	downscale filter:  Bicubic
+05:31:52 PM.114: 	fps:               30/1
+05:31:52 PM.114: 	format:            NV12
+05:31:52 PM.116: ---------------------------------
+05:31:52 PM.198: No blackmagic support
+05:31:52 PM.269: NVENC supported
+05:31:52 PM.274: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.1: cannot open shared object file: No such file or directory
+05:31:52 PM.274: 
+05:31:52 PM.274: Module '/usr//lib/obs-plugins/obs-libfdk.so' not found
+05:31:52 PM.304: ---------------------------------
+05:31:52 PM.304:   Loaded Modules:
+05:31:52 PM.304:     text-freetype2.so
+05:31:52 PM.304:     rtmp-services.so
+05:31:52 PM.304:     obs-x264.so
+05:31:52 PM.304:     obs-transitions.so
+05:31:52 PM.304:     obs-outputs.so
+05:31:52 PM.304:     obs-filters.so
+05:31:52 PM.304:     obs-ffmpeg.so
+05:31:52 PM.304:     linux-v4l2.so
+05:31:52 PM.304:     linux-pulseaudio.so
+05:31:52 PM.304:     linux-jack.so
+05:31:52 PM.304:     linux-decklink.so
+05:31:52 PM.304:     linux-capture.so
+05:31:52 PM.304:     linux-alsa.so
+05:31:52 PM.304:     image-source.so
+05:31:52 PM.304:     frontend-tools.so
+05:31:52 PM.304: ==== Startup complete ===============================================
+05:31:52 PM.307: Service '' not found
+05:31:52 PM.320: All scene data cleared
+05:31:52 PM.320: ------------------------------------------------
+05:31:53 PM.103: pulse-input: Server name: 'pulseaudio 9.0'
+05:31:53 PM.104: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:31:53 PM.104: pulse-input: Started recording from 'alsa_output.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo.monitor'
+05:31:53 PM.107: pulse-input: Server name: 'pulseaudio 9.0'
+05:31:53 PM.107: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:31:53 PM.107: pulse-input: Started recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+05:31:53 PM.108: v4l2-input: Start capture from /dev/video1
+05:31:53 PM.108: v4l2-input: Unable to open device
+05:31:53 PM.108: v4l2-input: Initialization failed
+05:31:53 PM.121: xshm-input: Geometry 1920x1080 @ 0,1080
+05:31:53 PM.128: Switched to scene 'Main Monitor'
+05:31:53 PM.128: ------------------------------------------------
+05:31:53 PM.128: Loaded scenes:
+05:31:53 PM.128: - scene 'Scene':
+05:31:53 PM.128:     - source: 'Mic/Aux' (pulse_input_capture)
+05:31:53 PM.128:     - source: 'c720' (v4l2_input)
+05:31:53 PM.128:         - filter: 'Color Correction' (color_filter)
+05:31:53 PM.128:         - filter: 'Crop/Pad' (crop_filter)
+05:31:53 PM.128: - scene 'Main Monitor':
+05:31:53 PM.129:     - source: 'Mic/Aux' (pulse_input_capture)
+05:31:53 PM.129:     - source: 'Screen Capture (XSHM) 1' (xshm_input)
+05:31:53 PM.129:     - source: 'c720' (v4l2_input)
+05:31:53 PM.129:         - filter: 'Color Correction' (color_filter)
+05:31:53 PM.129:         - filter: 'Crop/Pad' (crop_filter)
+05:31:53 PM.129: ------------------------------------------------
+05:31:53 PM.635: adding 46 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+05:31:58 PM.071: v4l2-input: Found device 'UVC Camera (046d:0825)' at /dev/video0
+05:31:58 PM.088: v4l2-input: Start capture from /dev/video1
+05:31:58 PM.089: v4l2-input: Unable to open device
+05:31:58 PM.089: v4l2-input: Initialization failed
+05:32:00 PM.086: v4l2-input: Found input 'Camera 1' (Index 0)
+05:32:00 PM.087: v4l2-input: Pixelformat: YUYV 4:2:2 (available)
+05:32:00 PM.087: v4l2-input: Pixelformat: Motion-JPEG (unavailable)
+05:32:00 PM.087: v4l2-input: Pixelformat: RGB3 (Emulated) (unavailable)
+05:32:00 PM.087: v4l2-input: Pixelformat: BGR3 (Emulated) (unavailable)
+05:32:00 PM.087: v4l2-input: Pixelformat: YU12 (Emulated) (available)
+05:32:00 PM.087: v4l2-input: Pixelformat: YV12 (Emulated) (available)
+05:32:00 PM.090: v4l2-input: Start capture from /dev/video0
+05:32:00 PM.091: v4l2-input: Input: 0
+05:32:00 PM.115: v4l2-input: Resolution: 352x288
+05:32:00 PM.115: v4l2-input: Pixelformat: 21VY
+05:32:00 PM.115: v4l2-input: Linesize: 352 Bytes
+05:32:00 PM.139: v4l2-input: Framerate: 30.00 fps
+05:32:08 PM.970: Update check: last known remote version is 0.4.0
+05:33:53 PM.547: rtmp-common.c: [initialize_output] Could not find service ''
+05:33:53 PM.549: rtmp-common.c: [initialize_output] Could not find service ''
+05:33:53 PM.549: ---------------------------------
+05:33:53 PM.549: [x264 encoder: 'streaming_h264'] preset: veryfast
+05:33:53 PM.550: [x264 encoder: 'streaming_h264'] settings:
+05:33:53 PM.550: 	rate_control: CBR
+05:33:53 PM.550: 	bitrate:      2500
+05:33:53 PM.550: 	buffer size:  2500
+05:33:53 PM.550: 	crf:          0
+05:33:53 PM.550: 	fps_num:      30
+05:33:53 PM.550: 	fps_den:      1
+05:33:53 PM.550: 	width:        1280
+05:33:53 PM.550: 	height:       720
+05:33:53 PM.550: 	keyint:       250
+05:33:53 PM.550: 	vfr:          off
+05:33:53 PM.550: 
+05:33:53 PM.569: ---------------------------------
+05:33:53 PM.574: [FFmpeg aac encoder: 'Track1'] bitrate: 160, channels: 2
+05:33:53 PM.582: [rtmp stream: 'adv_stream'] URL is empty
+05:33:53 PM.582: [rtmp stream: 'adv_stream'] Connection to (null) failed: -1
+05:33:53 PM.588: ==== Streaming Stop ================================================
+05:34:01 PM.243: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:01 PM.244: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:01 PM.272: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:01 PM.989: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:02 PM.990: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:09 PM.127: Settings changed (hotkeys)
+05:34:09 PM.127: ------------------------------------------------
+05:34:12 PM.054: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:12 PM.054: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:12 PM.082: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:13 PM.026: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:13 PM.482: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:14 PM.188: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:14 PM.472: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:15 PM.640: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:16 PM.022: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:24 PM.679: Settings changed (hotkeys)
+05:34:24 PM.680: ------------------------------------------------
+05:34:26 PM.368: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:26 PM.369: ---------------------------------
+05:34:26 PM.369: [x264 encoder: 'streaming_h264'] settings:
+05:34:26 PM.369: 	rate_control: CBR
+05:34:26 PM.369: 	bitrate:      2500
+05:34:26 PM.369: 	buffer size:  2500
+05:34:26 PM.369: 	crf:          0
+05:34:26 PM.369: 	fps_num:      30
+05:34:26 PM.369: 	fps_den:      1
+05:34:26 PM.369: 	width:        1280
+05:34:26 PM.369: 	height:       720
+05:34:26 PM.369: 	keyint:       250
+05:34:26 PM.369: 	vfr:          off
+05:34:26 PM.369: 
+05:34:26 PM.371: rtmp-common.c: [initialize_output] Could not find service ''
+05:34:26 PM.381: ==== Recording Start ===============================================
+05:34:26 PM.381: [ffmpeg muxer: 'adv_file_output'] Writing file '/home/glauz/Videos/OBS/2016-11-11 17-34-26.flv'...
+05:36:16 PM.125: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+05:36:16 PM.125: pulse-input: Got 52335 packets with 11670477 frames
+05:36:16 PM.125: pulse-input: Server name: 'pulseaudio 9.0'
+05:36:16 PM.126: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+05:36:16 PM.126: pulse-input: Started recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+05:47:50 PM.031: [ffmpeg muxer: 'adv_file_output'] Output of file '/home/glauz/Videos/OBS/2016-11-11 17-34-26.flv' stopped
+05:47:50 PM.031: Output 'adv_file_output': stopping
+05:47:50 PM.031: Output 'adv_file_output': Total encoded frames: 24109
+05:47:50 PM.031: Output 'adv_file_output': Total drawn frames: 24110
+05:47:50 PM.031: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.0%)
+05:47:50 PM.031: ==== Recording Stop ================================================
+05:48:02 PM.352: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+05:51:14 PM.951: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:14 PM.952: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:14 PM.974: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:15 PM.721: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:16 PM.236: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:30 PM.381: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:40 PM.156: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:40 PM.715: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:41 PM.492: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:42 PM.243: rtmp-common.c: [initialize_output] Could not find service ''
+05:51:42 PM.644: rtmp-common.c: [initialize_output] Could not find service ''
+05:52:06 PM.587: ==== Shutting down ==================================================
+05:52:06 PM.593: Switched to scene '(null)'
+05:52:06 PM.628: v4l2-input: Stopped capture after 16364 frames
+05:52:07 PM.242: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_14.2.analog-stereo.monitor'
+05:52:07 PM.242: pulse-input: Got 147922 packets with 42014612 frames
+05:52:07 PM.242: pulse-input: Stopped recording from 'alsa_input.usb-Blue_Microphones_Yeti_Stereo_Microphone-00.analog-stereo'
+05:52:07 PM.243: pulse-input: Got 121339 packets with 53561214 frames
+05:52:07 PM.243: All scene data cleared
+05:52:07 PM.243: ------------------------------------------------
+05:52:07 PM.308: Freeing OBS context data
+05:52:07 PM.345: == Profiler Results =============================
+05:52:07 PM.345: run_program_init: 1643.85 ms
+05:52:07 PM.345:  ┣OBSApp::AppInit: 12.125 ms
+05:52:07 PM.345:  ┃ ┗OBSApp::InitLocale: 7.18 ms
+05:52:07 PM.345:  ┗OBSApp::OBSInit: 1524.55 ms
+05:52:07 PM.345:    ┣obs_startup: 1.953 ms
+05:52:07 PM.345:    ┗OBSBasic::OBSInit: 1382.55 ms
+05:52:07 PM.345:      ┣OBSBasic::InitBasicConfig: 0.11 ms
+05:52:07 PM.345:      ┣OBSBasic::ResetAudio: 0.118 ms
+05:52:07 PM.345:      ┣OBSBasic::ResetVideo: 292.185 ms
+05:52:07 PM.345:      ┣OBSBasic::InitOBSCallbacks: 0.013 ms
+05:52:07 PM.345:      ┣OBSBasic::InitHotkeys: 0.073 ms
+05:52:07 PM.345:      ┣obs_load_all_modules: 187.878 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(frontend-tools.so): 1.517 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(image-source.so): 0.006 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-alsa.so): 0.004 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-capture.so): 2.542 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-decklink.so): 0.438 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-jack.so): 0.006 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.006 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(linux-v4l2.so): 0.011 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(obs-ffmpeg.so): 40.402 ms
+05:52:07 PM.345:      ┃ ┣obs_init_module(obs-filters.so): 0.026 ms
+05:52:07 PM.346:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+05:52:07 PM.346:      ┃ ┣obs_init_module(obs-transitions.so): 0.014 ms
+05:52:07 PM.346:      ┃ ┣obs_init_module(obs-x264.so): 0.003 ms
+05:52:07 PM.346:      ┃ ┣obs_init_module(rtmp-services.so): 8.428 ms
+05:52:07 PM.346:      ┃ ┗obs_init_module(text-freetype2.so): 0.092 ms
+05:52:07 PM.346:      ┣OBSBasic::ResetOutputs: 1.636 ms
+05:52:07 PM.346:      ┣OBSBasic::CreateHotkeys: 0.933 ms
+05:52:07 PM.346:      ┣OBSBasic::InitService: 0.092 ms
+05:52:07 PM.346:      ┣OBSBasic::InitPrimitives: 0.465 ms
+05:52:07 PM.346:      ┗OBSBasic::Load: 821.652 ms
+05:52:07 PM.346: obs_hotkey_thread(25 ms): min=0.108 ms, median=0.299 ms, max=74 ms, 99th percentile=5.725 ms, 99.898% below 25 ms
+05:52:07 PM.346: audio_thread(Audio): min=0.001 ms, median=1.55 ms, max=47.949 ms, 99th percentile=19.6 ms
+05:52:07 PM.346:  ┗receive_audio: min=0.003 ms, median=1.93 ms, max=47.831 ms, 99th percentile=20.358 ms, 0.717297 calls per parent call
+05:52:07 PM.346:    ┣buffer_audio: min=0.001 ms, median=0.003 ms, max=0.17 ms, 99th percentile=0.012 ms
+05:52:07 PM.346:    ┗do_encode: min=0.111 ms, median=1.921 ms, max=34.742 ms, 99th percentile=20.341 ms
+05:52:07 PM.346:      ┗encode(Track1): min=0.106 ms, median=1.905 ms, max=34.736 ms, 99th percentile=20.324 ms
+05:52:07 PM.346: obs_video_thread(33.3333 ms): min=1.263 ms, median=9.317 ms, max=128.001 ms, 99th percentile=17.262 ms, 99.753% below 33.333 ms
+05:52:07 PM.346:  ┣tick_sources: min=0 ms, median=6.573 ms, max=82.562 ms, 99th percentile=12.909 ms
+05:52:07 PM.346:  ┣render_displays: min=0.12 ms, median=1.35 ms, max=83.735 ms, 99th percentile=2.699 ms
+05:52:07 PM.346:  ┗output_frame: min=0.642 ms, median=1.291 ms, max=55.782 ms, 99th percentile=2.351 ms
+05:52:07 PM.346:    ┣gs_context(video->graphics): min=0.293 ms, median=0.589 ms, max=55.78 ms, 99th percentile=1.46 ms
+05:52:07 PM.346:    ┃ ┣render_video: min=0.196 ms, median=0.416 ms, max=40.094 ms, 99th percentile=0.757 ms
+05:52:07 PM.346:    ┃ ┃ ┣render_main_texture: min=0.067 ms, median=0.175 ms, max=39.998 ms, 99th percentile=0.44 ms
+05:52:07 PM.346:    ┃ ┃ ┣render_output_texture: min=0.011 ms, median=0.082 ms, max=7.797 ms, 99th percentile=0.218 ms
+05:52:07 PM.346:    ┃ ┃ ┣render_convert_texture: min=0.002 ms, median=0.082 ms, max=3.966 ms, 99th percentile=0.193 ms
+05:52:07 PM.346:    ┃ ┃ ┗stage_output_texture: min=0 ms, median=0.044 ms, max=14.221 ms, 99th percentile=0.222 ms
+05:52:07 PM.346:    ┃ ┣download_frame: min=0 ms, median=0.003 ms, max=0.241 ms, 99th percentile=0.011 ms
+05:52:07 PM.346:    ┃ ┗gs_flush: min=0.005 ms, median=0.01 ms, max=22.594 ms, 99th percentile=0.021 ms
+05:52:07 PM.346:    ┗output_video_data: min=0.323 ms, median=0.702 ms, max=6.913 ms, 99th percentile=1.13 ms
+05:52:07 PM.346: video_thread(video): min=0 ms, median=2.109 ms, max=9.437 ms, 99th percentile=3.241 ms
+05:52:07 PM.346:  ┗receive_video: min=0 ms, median=2.438 ms, max=7.072 ms, 99th percentile=3.377 ms, 0.661726 calls per parent call
+05:52:07 PM.346:    ┗do_encode: min=1.417 ms, median=2.437 ms, max=7.068 ms, 99th percentile=3.375 ms
+05:52:07 PM.346:      ┗encode(streaming_h264): min=1.398 ms, median=2.405 ms, max=6.725 ms, 99th percentile=3.239 ms
+05:52:07 PM.346: =================================================
+05:52:07 PM.346: == Profiler Time Between Calls ==================
+05:52:07 PM.346: obs_hotkey_thread(25 ms): min=25.171 ms, median=25.395 ms, max=99.119 ms, 80.0599% within ±2% of 25 ms (0% lower, 19.9401% higher)
+05:52:07 PM.346: obs_video_thread(33.3333 ms): min=8.153 ms, median=33.333 ms, max=128.013 ms, 99.2865% within ±2% of 33.333 ms (0.359515% lower, 0.354026% higher)
+05:52:07 PM.346: =================================================
+05:52:07 PM.462: Number of memory leaks: 0
